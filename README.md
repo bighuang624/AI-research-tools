@@ -1,12 +1,32 @@
 # AI-research-tools
 
+[![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bighuang624/AI-research-tools/blob/master/LICENSE)
+
+> 推荐一些我喜欢的科研工具
+
+## 目录  <!-- omit in toc -->
+- [AI-research-tools](#ai-research-tools)
+  - [论文查找](#%E8%AE%BA%E6%96%87%E6%9F%A5%E6%89%BE)
+    - [搜索引擎](#%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E)
+    - [arXiv 相关](#arxiv-%E7%9B%B8%E5%85%B3)
+    - [代码实现查找](#%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0%E6%9F%A5%E6%89%BE)
+  - [论文阅读](#%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB)
+    - [文献管理](#%E6%96%87%E7%8C%AE%E7%AE%A1%E7%90%86)
+  - [编码实验](#%E7%BC%96%E7%A0%81%E5%AE%9E%E9%AA%8C)
+  - [论文写作](#%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C)
+    - [LaTeX](#latex)
+    - [语言表达](#%E8%AF%AD%E8%A8%80%E8%A1%A8%E8%BE%BE)
+    - [公式编辑](#%E5%85%AC%E5%BC%8F%E7%BC%96%E8%BE%91)
+    - [模型绘图](#%E6%A8%A1%E5%9E%8B%E7%BB%98%E5%9B%BE)
+      - [图片转换](#%E5%9B%BE%E7%89%87%E8%BD%AC%E6%8D%A2)
+
 ## 论文查找
 
 ### 搜索引擎
 
-* [Google scholar]()：如今搜索论文的首选，可以在这里查看论文统计和引用参考文献，还能通过关注作者或者论文获得新论文更新提醒，以及利用自动化推荐来提供一个基本库。
+* [Google scholar](https://scholar.google.com/schhp?hl=zh-CN)：如今搜索论文的首选，可以在这里查看论文统计和引用参考文献，还能通过关注作者或者论文获得新论文更新提醒，以及利用自动化推荐来提供一个基本库。
 
-* [Semantic scholar]()：可以结合外部材料整合进行论文的语义分析。功能包括：展示引用和参考文献、度量论文影响力、展示论文图表、自动生成关键词（根据标题）、分析作者、在互联网寻找额外资源（例如，相关 youtube 视频），以及推荐论文。
+* [Semantic scholar](https://www.semanticscholar.org/)：可以结合外部材料整合进行论文的语义分析。功能包括：展示引用和参考文献、度量论文影响力、展示论文图表、自动生成关键词（根据标题）、分析作者、在互联网寻找额外资源（例如，相关 youtube 视频），以及推荐论文。
 
 * [dblp: computer science bibliography](https://dblp.org/)：专为 CS 设计的论文查询网站，收录比较顶级并可以被检索到的论文。可以根据会议、期刊等分类查询作者的论文，想搜一个计算机会议的所有文章时好用。
 
