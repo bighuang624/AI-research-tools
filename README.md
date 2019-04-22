@@ -19,6 +19,8 @@
     - [公式编辑](#%E5%85%AC%E5%BC%8F%E7%BC%96%E8%BE%91)
     - [模型绘图](#%E6%A8%A1%E5%9E%8B%E7%BB%98%E5%9B%BE)
       - [图片转换](#%E5%9B%BE%E7%89%87%E8%BD%AC%E6%8D%A2)
+  - [会议投递](#%E4%BC%9A%E8%AE%AE%E6%8A%95%E9%80%92)
+    - [匿名链接](#%E5%8C%BF%E5%90%8D%E9%93%BE%E6%8E%A5)
 
 ## 论文查找
 
@@ -102,4 +104,16 @@
 
 #### 图片转换
 
-* [Convert PNG/JPEG (Raster) to EPS/PDF (Vector) Format](http://www.tlhiv.org/rast2vec/)：将 jpg、png 格式的图片文件转换为 eps 文件
+* [Convert PNG/JPEG (Raster) to EPS/PDF (Vector) Format](http://www.tlhiv.org/rast2vec/)：将 jpg、png 格式的图片文件转换为 eps 文件。
+
+## 会议投递
+
+### 匿名链接
+
+出于论文盲审考虑，有时候文件（如源码）链接需要是匿名的。有些人会选择在 Github 上创建一个匿名用户，但为每一个会议的每一篇论文都创建一个之后再用不到的用户过于繁琐。我查到有一些工具支持匿名分享文件如下。
+
+* [Dropbox](https://www.dropbox.com/)：应该是最常用的。
+
+* [Open Science Framework](http://help.osf.io/m/links_forks/l/783581-create-a-view-only-link-for-a-registration)
+
+* [Figshare](https://knowledge.figshare.com/articles/item/how-to-share-cite-or-embed-my-data)
