@@ -20,6 +20,7 @@
     - [模型绘图](#%E6%A8%A1%E5%9E%8B%E7%BB%98%E5%9B%BE)
       - [图片转换](#%E5%9B%BE%E7%89%87%E8%BD%AC%E6%8D%A2)
   - [会议投递](#%E4%BC%9A%E8%AE%AE%E6%8A%95%E9%80%92)
+    - [deadline 查看](#deadline-%E6%9F%A5%E7%9C%8B)
     - [匿名链接](#%E5%8C%BF%E5%90%8D%E9%93%BE%E6%8E%A5)
 
 ## 论文查找
@@ -107,6 +108,13 @@
 * [Convert PNG/JPEG (Raster) to EPS/PDF (Vector) Format](http://www.tlhiv.org/rast2vec/)：将 jpg、png 格式的图片文件转换为 eps 文件。
 
 ## 会议投递
+
+### deadline 查看
+
+* [Conference List](http://www.conferencelist.info/upcoming.html)：根据截稿时间排序，过期的会议不在首页出现。有一页可以看每个研究方向有哪些会议，但是没有办法根据研究方向筛选还没过期的会议。
+
+* [AI Conference Deadlines](https://aideadlin.es/)：可以根据研究方向筛选会议。但是好像需要科学上网才能看到全部信息。
+
 
 ### 匿名链接
 
