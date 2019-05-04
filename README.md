@@ -13,6 +13,8 @@
   - [论文阅读](#%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB)
     - [文献管理](#%E6%96%87%E7%8C%AE%E7%AE%A1%E7%90%86)
   - [编码实验](#%E7%BC%96%E7%A0%81%E5%AE%9E%E9%AA%8C)
+    - [Pytorch 相关](#pytorch-%E7%9B%B8%E5%85%B3)
+    - [Debug 工具](#debug-%E5%B7%A5%E5%85%B7)
   - [论文写作](#%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C)
     - [LaTeX](#latex)
     - [语言表达](#%E8%AF%AD%E8%A8%80%E8%A1%A8%E8%BE%BE)
@@ -45,11 +47,21 @@
 
 ### 文献管理
 
-* [Mendeley](https://www.mendeley.com)：支持 web、PC、Mac 和移动手机等多个平台，可以直接注释和高亮显示 PDF，有限额的免费云存储。另外可以每周邮件推荐论文。
+* [Mendeley](https://www.mendeley.com)：支持 web、PC、Mac 和移动手机等多个平台，可以直接注释和高亮显示 PDF，有限额的免费云存储。另外有每周邮件推荐论文。
 
 ## 编码实验
 
+### Pytorch 相关
 
+* [IgorSusmelj/pytorch-styleguide](https://github.com/IgorSusmelj/pytorch-styleguide)：一份 PyTorch 的非官方风格指南和最佳实践总结。
+
+* [moemen95/Pytorch-Project-Template](https://github.com/moemen95/Pytorch-Project-Template)：一个可扩展的 PyTorch 项目模板，包括图像分割、目标分类、GANs 和强化学习等实例。
+
+* [lyakaap/pytorch-template](https://github.com/lyakaap/pytorch-template)：另一份 PyTorch 项目模板。
+
+### Debug 工具
+
+* [cool-RR/PySnooper](https://github.com/cool-RR/pysnooper)：致力让用户抛弃`print`函数来 debug。[机器之心写的简介](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650760939&idx=1&sn=5b69c106549f329f83ca241e1bc71ff3&chksm=871aa295b06d2b83deade4fc16f99ed5354572c8838d202d0a229d804bb535815f2315d980d0&scene=0&xtrack=1&key=6854b25c2a023c1b259671991171b31fab8ca8f0b3be42cfe9746f0ac6a97af337c3f692988c69af5813e1658308b6087dc66c1d1f218619aab29c7d02dfc8b005eff42eea7fcb837022e321727f14b5&ascene=1&uin=MjA1ODkwNzIyNw%3D%3D&devicetype=Windows+10&version=62060739&lang=zh_CN&pass_ticket=5JdoVuTltfAvWg%2FaBYq40SvnVT0xZhhRK9fPaxA3iu2MgoceoLJpRqamQ9gnBuY2)
 
 ## 论文写作
 
