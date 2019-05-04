@@ -11,6 +11,7 @@
     - [arXiv 相关](#arxiv-%E7%9B%B8%E5%85%B3)
     - [代码实现查找](#%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0%E6%9F%A5%E6%89%BE)
   - [论文阅读](#%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB)
+    - [查阅下载](#%E6%9F%A5%E9%98%85%E4%B8%8B%E8%BD%BD)
     - [文献管理](#%E6%96%87%E7%8C%AE%E7%AE%A1%E7%90%86)
   - [编码实验](#%E7%BC%96%E7%A0%81%E5%AE%9E%E9%AA%8C)
     - [Pytorch 相关](#pytorch-%E7%9B%B8%E5%85%B3)
@@ -44,6 +45,10 @@
 * [Papers With Code](https://paperswithcode.com/)：自动把论文连接到实现代码的 GitHub 资源库和数据集，并根据 GitHub 的收藏量排序。每篇论文可能有多个合并的条目。
 
 ## 论文阅读
+
+### 查阅下载
+
+* [SCI-Hub科研论文全文下载可用网址](http://tool.yovisun.com/scihub/)
 
 ### 文献管理
 
