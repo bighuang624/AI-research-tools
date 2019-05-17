@@ -124,6 +124,10 @@
 
 * [Convert PNG/JPEG (Raster) to EPS/PDF (Vector) Format](http://www.tlhiv.org/rast2vec/)：将 jpg、png 格式的图片文件转换为 eps 文件。
 
+* [EPS到PDF转换器](https://convertio.co/zh/eps-pdf/)
+
+* [Crop PDF files online - PDF Tools](https://pdfresizer.com/crop)：裁剪 pdf 文件的白边。
+
 ## 会议投递
 
 ### 会议查找筛选
