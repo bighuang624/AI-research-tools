@@ -39,10 +39,12 @@
 ### arXiv 相关
 
 * [arXiv-sanity](http://arxiv-sanity.com/)：相比于 arXiv 有很大的改进，包括在浏览中显示摘要、评论和非常基本的社交、推荐、库功能。
+* [Semantic Sanity: A Personalized Adaptive Feed](https://s2-sanity.apps.allenai.org)：创建自己的个性化 arXiv 选读 Feed。创建每个 Feed 时，会让您先选择几篇论文，然后根据这几篇论文开始推荐，对于推荐结果可以点赞或者不喜欢来帮助调整推荐结果。
 
 ### 代码实现查找
 
 * [Papers With Code](https://paperswithcode.com/)：自动把论文连接到实现代码的 GitHub 资源库和数据集，并根据 GitHub 的收藏量排序。每篇论文可能有多个合并的条目。
+* [rasbt/deeplearning-models](https://github.com/rasbt/deeplearning-models)：使用 TensorFlow 和 PyTorch 实现各种深度学习模型的合集。
 
 ## 论文阅读
 
@@ -65,6 +67,8 @@
 * [lyakaap/pytorch-template](https://github.com/lyakaap/pytorch-template)：另一份 PyTorch 项目模板。
 
 * [Swall0w/torchstat](https://github.com/Swall0w/torchstat)：【待尝试】PyTorch 专用的轻量级神经网络分析器，可以展示网络的参数，空间大小，MAdd，FLOPs 等指标。
+
+* [Tramac/torchscope](https://github.com/Tramac/torchscope)：【待尝试】同样是 PyTorch 专用的神经网络分析器，看起来展示时比上面的 torchstat 更加清晰。
 
 * [torchtracer](https://oidiotlin.com/torchtracer/)：【待尝试】一个管理 PyTorch AI 实验项目的工具，主要用于保存各类训练数据（模型 checkpoints、超参数组合、图像等）。
 
@@ -111,6 +115,8 @@
 * [MyScript Webdemo](https://webdemo.myscript.com/)：Math 模块可以将手写公式转为 LaTeX 代码；同时，Diagram 模块可以将手绘的框图转化为工整的框图。
 
 ### 模型绘图
+
+* [Inkscape](https://inkscape.org/) with [latex equation extensions](https://writetex.tk/)：【待尝试】
 
 * [http://Lucidchart.com](https://www.lucidchart.com/)：在线画矢量图，可以导出 png、pdf，也支持各种颜色，组合和图层等。
 
