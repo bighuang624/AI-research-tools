@@ -2,7 +2,7 @@
 
 [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bighuang624/AI-research-tools/blob/master/LICENSE)
 
-> 推荐一些我喜欢的科研工具
+> 推荐一些我喜欢的科研工具（有些限定于 AI 领域）
 
 ## 目录  <!-- omit in toc -->
 - [AI-research-tools](#ai-research-tools)
@@ -10,11 +10,14 @@
     - [搜索引擎](#%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E)
     - [arXiv 相关](#arxiv-%E7%9B%B8%E5%85%B3)
     - [代码实现查找](#%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0%E6%9F%A5%E6%89%BE)
+  - [趋势关注](#%E8%B6%8B%E5%8A%BF%E5%85%B3%E6%B3%A8)
+    - [RSS 阅读器](#rss-%E9%98%85%E8%AF%BB%E5%99%A8)
   - [论文阅读](#%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB)
     - [查阅下载](#%E6%9F%A5%E9%98%85%E4%B8%8B%E8%BD%BD)
     - [文献管理](#%E6%96%87%E7%8C%AE%E7%AE%A1%E7%90%86)
   - [编码实验](#%E7%BC%96%E7%A0%81%E5%AE%9E%E9%AA%8C)
     - [Pytorch 相关](#pytorch-%E7%9B%B8%E5%85%B3)
+    - [超参搜索](#%E8%B6%85%E5%8F%82%E6%90%9C%E7%B4%A2)
     - [Debug 工具](#debug-%E5%B7%A5%E5%85%B7)
   - [论文写作](#%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C)
     - [LaTeX](#latex)
@@ -23,7 +26,7 @@
     - [模型绘图](#%E6%A8%A1%E5%9E%8B%E7%BB%98%E5%9B%BE)
       - [图片转换](#%E5%9B%BE%E7%89%87%E8%BD%AC%E6%8D%A2)
   - [会议投递](#%E4%BC%9A%E8%AE%AE%E6%8A%95%E9%80%92)
-    - [会议查找筛选](#%BB%E1%D2%E9%B2%E9%D5%D2%C9%B8%D1%A1)
+    - [会议查找筛选](#%E4%BC%9A%E8%AE%AE%E6%9F%A5%E6%89%BE%E7%AD%9B%E9%80%89)
     - [匿名链接](#%E5%8C%BF%E5%90%8D%E9%93%BE%E6%8E%A5)
 
 ## 论文查找
@@ -45,6 +48,12 @@
 
 * [Papers With Code](https://paperswithcode.com/)：自动把论文连接到实现代码的 GitHub 资源库和数据集，并根据 GitHub 的收藏量排序。每篇论文可能有多个合并的条目。
 * [rasbt/deeplearning-models](https://github.com/rasbt/deeplearning-models)：使用 TensorFlow 和 PyTorch 实现各种深度学习模型的合集。
+
+## 趋势关注
+
+### RSS 阅读器
+
+* [irreader 阅读器 - FATECORE](http://irreader.fatecore.com/)：这是我现在在使用的 RSS 阅读器。一个非常大的优点是，对于一些没有提供 RSS 订阅源的网站，irreader 可以自定义 RSS 订阅源。另外，订阅的 RSS 更新时，有弹窗提醒。还有一个我暂时用不到的功能是，irreader 同时支持订阅播客和播放有声媒体。
 
 ## 论文阅读
 
