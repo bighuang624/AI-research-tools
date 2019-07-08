@@ -5,22 +5,27 @@
 > 推荐一些我喜欢的科研工具（有些限定于 AI 领域）
 
 ## 目录  <!-- omit in toc -->
-- [AI-research-tools](#ai-research-tools)
+- [AI-research-tools](#AI-research-tools)
   - [论文查找](#%E8%AE%BA%E6%96%87%E6%9F%A5%E6%89%BE)
     - [搜索引擎](#%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E)
-    - [arXiv 相关](#arxiv-%E7%9B%B8%E5%85%B3)
+    - [arXiv 相关](#arXiv-%E7%9B%B8%E5%85%B3)
     - [代码实现查找](#%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0%E6%9F%A5%E6%89%BE)
   - [趋势关注](#%E8%B6%8B%E5%8A%BF%E5%85%B3%E6%B3%A8)
-    - [RSS 阅读器](#rss-%E9%98%85%E8%AF%BB%E5%99%A8)
+    - [RSS 阅读器](#RSS-%E9%98%85%E8%AF%BB%E5%99%A8)
   - [论文阅读](#%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB)
     - [查阅下载](#%E6%9F%A5%E9%98%85%E4%B8%8B%E8%BD%BD)
     - [文献管理](#%E6%96%87%E7%8C%AE%E7%AE%A1%E7%90%86)
   - [编码实验](#%E7%BC%96%E7%A0%81%E5%AE%9E%E9%AA%8C)
-    - [Pytorch 相关](#pytorch-%E7%9B%B8%E5%85%B3)
+    - [Pytorch 相关](#Pytorch-%E7%9B%B8%E5%85%B3)
+      - [风格指南](#%E9%A3%8E%E6%A0%BC%E6%8C%87%E5%8D%97)
+      - [项目模板](#%E9%A1%B9%E7%9B%AE%E6%A8%A1%E6%9D%BF)
+      - [神经网络分析器](#%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%88%86%E6%9E%90%E5%99%A8)
+      - [可视化](#%E5%8F%AF%E8%A7%86%E5%8C%96)
+      - [项目管理](#%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86)
     - [超参搜索](#%E8%B6%85%E5%8F%82%E6%90%9C%E7%B4%A2)
-    - [Debug 工具](#debug-%E5%B7%A5%E5%85%B7)
+    - [Debug 工具](#Debug-%E5%B7%A5%E5%85%B7)
   - [论文写作](#%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C)
-    - [LaTeX](#latex)
+    - [LaTeX](#LaTeX)
     - [语言表达](#%E8%AF%AD%E8%A8%80%E8%A1%A8%E8%BE%BE)
     - [公式编辑](#%E5%85%AC%E5%BC%8F%E7%BC%96%E8%BE%91)
     - [模型绘图](#%E6%A8%A1%E5%9E%8B%E7%BB%98%E5%9B%BE)
@@ -69,15 +74,29 @@
 
 ### Pytorch 相关
 
+#### 风格指南
+
 * [IgorSusmelj/pytorch-styleguide](https://github.com/IgorSusmelj/pytorch-styleguide)：一份 PyTorch 的非官方风格指南和最佳实践总结。
+
+#### 项目模板
 
 * [moemen95/Pytorch-Project-Template](https://github.com/moemen95/Pytorch-Project-Template)：一个可扩展的 PyTorch 项目模板，包括图像分割、目标分类、GANs 和强化学习等实例。
 
 * [lyakaap/pytorch-template](https://github.com/lyakaap/pytorch-template)：另一份 PyTorch 项目模板。
 
-* [Swall0w/torchstat](https://github.com/Swall0w/torchstat)：【待尝试】PyTorch 专用的轻量级神经网络分析器，可以展示网络的参数，空间大小，MAdd，FLOPs 等指标。
+#### 神经网络分析器
 
-* [Tramac/torchscope](https://github.com/Tramac/torchscope)：【待尝试】同样是 PyTorch 专用的神经网络分析器，看起来展示时比上面的 torchstat 更加清晰。
+* <del>[Swall0w/torchstat](https://github.com/Swall0w/torchstat)：PyTorch 专用的轻量级神经网络分析器，可以展示网络的参数，空间大小，MAdd，FLOPs 等指标。</del>【支持的层种类过少，只包含卷积网络中常用的那些层】
+
+* <del>[Tramac/torchscope](https://github.com/Tramac/torchscope)：同样是 PyTorch 专用的神经网络分析器，看起来展示时比上面的 torchstat 更加清晰。</del>【支持的层种类过少，只包含卷积网络中常用的那些层，甚至不支持线性变换】
+
+#### 可视化
+
+* [lanpa/tensorboardX](https://github.com/lanpa/tensorboardX)：强大的可视化工具。有一个问题是，要是每个 epoch 的实验结果都记录，epoch 多了感觉有些卡。
+
+* [facebookresearch/visdom](https://github.com/facebookresearch/visdom)：【待尝试】用于创建、组织和共享实时丰富数据可视化的灵活工具。
+
+#### 项目管理
 
 * [torchtracer](https://oidiotlin.com/torchtracer/)：【待尝试】一个管理 PyTorch AI 实验项目的工具，主要用于保存各类训练数据（模型 checkpoints、超参数组合、图像等）。
 
