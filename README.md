@@ -25,9 +25,11 @@
     - [超参搜索](#%E8%B6%85%E5%8F%82%E6%90%9C%E7%B4%A2)
     - [Debug 工具](#Debug-%E5%B7%A5%E5%85%B7)
   - [论文写作](#%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C)
-    - [LaTeX](#LaTeX)
+    - [LaTeX 编辑器](#LaTeX-%E7%BC%96%E8%BE%91%E5%99%A8)
     - [语言表达](#%E8%AF%AD%E8%A8%80%E8%A1%A8%E8%BE%BE)
     - [公式编辑](#%E5%85%AC%E5%BC%8F%E7%BC%96%E8%BE%91)
+    - [截屏悬浮](#%E6%88%AA%E5%B1%8F%E6%82%AC%E6%B5%AE)
+    - [表格转 LaTeX](#%E8%A1%A8%E6%A0%BC%E8%BD%AC-LaTeX)
     - [模型绘图](#%E6%A8%A1%E5%9E%8B%E7%BB%98%E5%9B%BE)
       - [图片转换](#%E5%9B%BE%E7%89%87%E8%BD%AC%E6%8D%A2)
   - [会议投递](#%E4%BC%9A%E8%AE%AE%E6%8A%95%E9%80%92)
@@ -92,7 +94,7 @@
 
 #### 可视化
 
-* [lanpa/tensorboardX](https://github.com/lanpa/tensorboardX)：强大的可视化工具。有一个问题是，要是每个 epoch 的实验结果都记录，epoch 多了感觉有些卡。
+* [lanpa/tensorboardX](https://github.com/lanpa/tensorboardX)：强大的可视化工具。有一个问题是，当每个 epoch 的实验结果都记录时，epoch 多了感觉有些卡。
 
 * [facebookresearch/visdom](https://github.com/facebookresearch/visdom)：【待尝试】用于创建、组织和共享实时丰富数据可视化的灵活工具。
 
@@ -112,9 +114,9 @@
 
 ## 论文写作
 
-### LaTeX
+### LaTeX 编辑器
 
-* [Overleaf](https://www.overleaf.com/)：支持多人协作的在线 LaTeX 编辑器。但是对网络要求较高。
+* [Overleaf](https://www.overleaf.com/)：支持多人协作的**在线** LaTeX 编辑器。但是对网络要求较高。
 
 ### 语言表达
 
@@ -141,6 +143,18 @@
 * [Mathpix](https://mathpix.com/)：通过截取复杂数学方程式的截图将其转换为 LaTeX 代码。可以处理 PDF 的印刷体和照片中的手写公式等。
 
 * [MyScript Webdemo](https://webdemo.myscript.com/)：Math 模块可以将手写公式转为 LaTeX 代码；同时，Diagram 模块可以将手绘的框图转化为工整的框图。
+
+### 截屏悬浮
+
+写论文时经常会遇到需要参考多个文献或代码的情况，同时查看多个文件并频繁切换会非常麻烦。这里是别人推荐的两个能够将截图悬浮置顶的工具，并随时调整位置和大小，方便写作时参考。
+
+* [Snipaste](https://www.snipaste.com/)：【待尝试】有 Windows 和 Mac 版，暂时没有 Linux 版。
+
+* [Snappy](http://snappy-app.com/)：【待尝试】有 Mac 和 iPhone & iPad 版，暂时没有 Windows 版。
+
+### 表格转 LaTeX
+
+* [Excel2LaTeX](https://ctan.org/tex-archive/support/excel2latex)：用在 Excel 上的宏工具，能够将 Excel 表格转换为 LaTeX 代码，节省很多时间。能够满足大多数效果的转换，有些效果可能需要微调。
 
 ### 模型绘图
 
