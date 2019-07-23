@@ -5,36 +5,37 @@
 > 推荐一些我喜欢的科研工具（有些限定于 AI 领域）
 
 ## 目录  <!-- omit in toc -->
-- [AI-research-tools](#AI-research-tools)
-  - [论文查找](#%E8%AE%BA%E6%96%87%E6%9F%A5%E6%89%BE)
-    - [搜索引擎](#%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E)
-    - [arXiv 相关](#arXiv-%E7%9B%B8%E5%85%B3)
-    - [代码实现查找](#%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0%E6%9F%A5%E6%89%BE)
-  - [趋势关注](#%E8%B6%8B%E5%8A%BF%E5%85%B3%E6%B3%A8)
-    - [RSS 阅读器](#RSS-%E9%98%85%E8%AF%BB%E5%99%A8)
-  - [论文阅读](#%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB)
-    - [查阅下载](#%E6%9F%A5%E9%98%85%E4%B8%8B%E8%BD%BD)
-    - [文献管理](#%E6%96%87%E7%8C%AE%E7%AE%A1%E7%90%86)
-  - [编码实验](#%E7%BC%96%E7%A0%81%E5%AE%9E%E9%AA%8C)
-    - [Pytorch 相关](#Pytorch-%E7%9B%B8%E5%85%B3)
-      - [风格指南](#%E9%A3%8E%E6%A0%BC%E6%8C%87%E5%8D%97)
-      - [项目模板](#%E9%A1%B9%E7%9B%AE%E6%A8%A1%E6%9D%BF)
-      - [神经网络分析器](#%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%88%86%E6%9E%90%E5%99%A8)
-      - [可视化](#%E5%8F%AF%E8%A7%86%E5%8C%96)
-      - [项目管理](#%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86)
-    - [超参搜索](#%E8%B6%85%E5%8F%82%E6%90%9C%E7%B4%A2)
-    - [Debug 工具](#Debug-%E5%B7%A5%E5%85%B7)
-  - [论文写作](#%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C)
-    - [LaTeX 编辑器](#LaTeX-%E7%BC%96%E8%BE%91%E5%99%A8)
-    - [语言表达](#%E8%AF%AD%E8%A8%80%E8%A1%A8%E8%BE%BE)
-    - [公式编辑](#%E5%85%AC%E5%BC%8F%E7%BC%96%E8%BE%91)
-    - [截屏悬浮](#%E6%88%AA%E5%B1%8F%E6%82%AC%E6%B5%AE)
-    - [表格转 LaTeX](#%E8%A1%A8%E6%A0%BC%E8%BD%AC-LaTeX)
-    - [模型绘图](#%E6%A8%A1%E5%9E%8B%E7%BB%98%E5%9B%BE)
-      - [图片转换](#%E5%9B%BE%E7%89%87%E8%BD%AC%E6%8D%A2)
-  - [会议投递](#%E4%BC%9A%E8%AE%AE%E6%8A%95%E9%80%92)
-    - [会议查找筛选](#%E4%BC%9A%E8%AE%AE%E6%9F%A5%E6%89%BE%E7%AD%9B%E9%80%89)
-    - [匿名链接](#%E5%8C%BF%E5%90%8D%E9%93%BE%E6%8E%A5)
+- [AI-research-tools](#ai-research-tools)
+  - [论文查找](#%e8%ae%ba%e6%96%87%e6%9f%a5%e6%89%be)
+    - [搜索引擎](#%e6%90%9c%e7%b4%a2%e5%bc%95%e6%93%8e)
+    - [arXiv 相关](#arxiv-%e7%9b%b8%e5%85%b3)
+    - [代码实现查找](#%e4%bb%a3%e7%a0%81%e5%ae%9e%e7%8e%b0%e6%9f%a5%e6%89%be)
+  - [趋势关注](#%e8%b6%8b%e5%8a%bf%e5%85%b3%e6%b3%a8)
+    - [RSS 阅读器](#rss-%e9%98%85%e8%af%bb%e5%99%a8)
+  - [论文阅读](#%e8%ae%ba%e6%96%87%e9%98%85%e8%af%bb)
+    - [查阅下载](#%e6%9f%a5%e9%98%85%e4%b8%8b%e8%bd%bd)
+    - [文献管理](#%e6%96%87%e7%8c%ae%e7%ae%a1%e7%90%86)
+  - [编码实验](#%e7%bc%96%e7%a0%81%e5%ae%9e%e9%aa%8c)
+    - [Pytorch 相关](#pytorch-%e7%9b%b8%e5%85%b3)
+      - [风格指南](#%e9%a3%8e%e6%a0%bc%e6%8c%87%e5%8d%97)
+      - [项目模板](#%e9%a1%b9%e7%9b%ae%e6%a8%a1%e6%9d%bf)
+      - [神经网络分析器](#%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c%e5%88%86%e6%9e%90%e5%99%a8)
+      - [可视化](#%e5%8f%af%e8%a7%86%e5%8c%96)
+      - [项目管理](#%e9%a1%b9%e7%9b%ae%e7%ae%a1%e7%90%86)
+      - [其他](#%e5%85%b6%e4%bb%96)
+    - [超参搜索](#%e8%b6%85%e5%8f%82%e6%90%9c%e7%b4%a2)
+    - [Debug 工具](#debug-%e5%b7%a5%e5%85%b7)
+  - [论文写作](#%e8%ae%ba%e6%96%87%e5%86%99%e4%bd%9c)
+    - [LaTeX 编辑器](#latex-%e7%bc%96%e8%be%91%e5%99%a8)
+    - [语言表达](#%e8%af%ad%e8%a8%80%e8%a1%a8%e8%be%be)
+    - [公式编辑](#%e5%85%ac%e5%bc%8f%e7%bc%96%e8%be%91)
+    - [截屏悬浮](#%e6%88%aa%e5%b1%8f%e6%82%ac%e6%b5%ae)
+    - [表格转 LaTeX](#%e8%a1%a8%e6%a0%bc%e8%bd%ac-latex)
+    - [模型绘图](#%e6%a8%a1%e5%9e%8b%e7%bb%98%e5%9b%be)
+      - [图片转换](#%e5%9b%be%e7%89%87%e8%bd%ac%e6%8d%a2)
+  - [会议投递](#%e4%bc%9a%e8%ae%ae%e6%8a%95%e9%80%92)
+    - [会议查找筛选](#%e4%bc%9a%e8%ae%ae%e6%9f%a5%e6%89%be%e7%ad%9b%e9%80%89)
+    - [匿名链接](#%e5%8c%bf%e5%90%8d%e9%93%be%e6%8e%a5)
 
 ## 论文查找
 
@@ -101,6 +102,10 @@
 #### 项目管理
 
 * [torchtracer](https://oidiotlin.com/torchtracer/)：【待尝试】一个管理 PyTorch AI 实验项目的工具，主要用于保存各类训练数据（模型 checkpoints、超参数组合、图像等）。
+
+#### 其他
+
+* [skorch-dev/skorch](https://github.com/skorch-dev/skorch)：【待尝试】一个 scikit-learn 兼容的神经网络库，封装了 PyTorch。
 
 ### 超参搜索
 
