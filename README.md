@@ -15,6 +15,7 @@
   - [论文阅读](#%e8%ae%ba%e6%96%87%e9%98%85%e8%af%bb)
     - [查阅下载](#%e6%9f%a5%e9%98%85%e4%b8%8b%e8%bd%bd)
     - [文献管理](#%e6%96%87%e7%8c%ae%e7%ae%a1%e7%90%86)
+    - [阅读笔记](#%e9%98%85%e8%af%bb%e7%ac%94%e8%ae%b0)
   - [编码实验](#%e7%bc%96%e7%a0%81%e5%ae%9e%e9%aa%8c)
     - [Pytorch 相关](#pytorch-%e7%9b%b8%e5%85%b3)
       - [风格指南](#%e9%a3%8e%e6%a0%bc%e6%8c%87%e5%8d%97)
@@ -73,6 +74,10 @@
 
 * [Mendeley](https://www.mendeley.com)：支持 web、PC、Mac 和移动手机等多个平台，可以直接注释和高亮显示 PDF，有限额的免费云存储。另外有每周邮件推荐论文。
 
+### 阅读笔记
+
+我个人习惯使用[印象笔记](https://www.yinxiang.com/)。
+
 ## 编码实验
 
 ### Pytorch 相关
@@ -98,6 +103,8 @@
 * [lanpa/tensorboardX](https://github.com/lanpa/tensorboardX)：强大的可视化工具。有一个问题是，当每个 epoch 的实验结果都记录时，epoch 多了感觉有些卡。
 
 * [facebookresearch/visdom](https://github.com/facebookresearch/visdom)：【待尝试】用于创建、组织和共享实时丰富数据可视化的灵活工具。
+
+* [Convolution Visualizer](https://ezyang.github.io/convolution-visualizer/index.html)：如果卷积层配置比较复杂，不方便计算输出大小时，可以利用这个可视化工具辅助。
 
 #### 项目管理
 
