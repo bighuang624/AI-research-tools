@@ -15,6 +15,7 @@
   - [论文阅读](#%e8%ae%ba%e6%96%87%e9%98%85%e8%af%bb)
     - [查阅下载](#%e6%9f%a5%e9%98%85%e4%b8%8b%e8%bd%bd)
     - [文献管理](#%e6%96%87%e7%8c%ae%e7%ae%a1%e7%90%86)
+    - [文献翻译](#%e6%96%87%e7%8c%ae%e7%bf%bb%e8%af%91)
     - [阅读笔记](#%e9%98%85%e8%af%bb%e7%ac%94%e8%ae%b0)
   - [编码实验](#%e7%bc%96%e7%a0%81%e5%ae%9e%e9%aa%8c)
     - [Pytorch 相关](#pytorch-%e7%9b%b8%e5%85%b3)
@@ -29,6 +30,9 @@
   - [论文写作](#%e8%ae%ba%e6%96%87%e5%86%99%e4%bd%9c)
     - [LaTeX 编辑器](#latex-%e7%bc%96%e8%be%91%e5%99%a8)
     - [语言表达](#%e8%af%ad%e8%a8%80%e8%a1%a8%e8%be%be)
+      - [搭配查找](#%e6%90%ad%e9%85%8d%e6%9f%a5%e6%89%be)
+      - [句式推荐](#%e5%8f%a5%e5%bc%8f%e6%8e%a8%e8%8d%90)
+      - [写作检查](#%e5%86%99%e4%bd%9c%e6%a3%80%e6%9f%a5)
     - [公式编辑](#%e5%85%ac%e5%bc%8f%e7%bc%96%e8%be%91)
     - [截屏悬浮](#%e6%88%aa%e5%b1%8f%e6%82%ac%e6%b5%ae)
     - [表格转 LaTeX](#%e8%a1%a8%e6%a0%bc%e8%bd%ac-latex)
@@ -73,6 +77,10 @@
 ### 文献管理
 
 * [Mendeley](https://www.mendeley.com)：支持 web、PC、Mac 和移动手机等多个平台，可以直接注释和高亮显示 PDF，有限额的免费云存储。另外有每周邮件推荐论文。
+
+### 文献翻译
+
+* [CopyTranslator](https://copytranslator.github.io/)：该软件最大的优点在于有置顶、点按复制、监听剪贴板等功能，阅读文献配合使用时非常方便。
 
 ### 阅读笔记
 
@@ -122,7 +130,7 @@
 
 ### Debug 工具
 
-* [cool-RR/PySnooper](https://github.com/cool-RR/pysnooper)：【待尝试】致力让用户抛弃`print`函数来 debug。[机器之心写的简介](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650760939&idx=1&sn=5b69c106549f329f83ca241e1bc71ff3&chksm=871aa295b06d2b83deade4fc16f99ed5354572c8838d202d0a229d804bb535815f2315d980d0&scene=0&xtrack=1&key=6854b25c2a023c1b259671991171b31fab8ca8f0b3be42cfe9746f0ac6a97af337c3f692988c69af5813e1658308b6087dc66c1d1f218619aab29c7d02dfc8b005eff42eea7fcb837022e321727f14b5&ascene=1&uin=MjA1ODkwNzIyNw%3D%3D&devicetype=Windows+10&version=62060739&lang=zh_CN&pass_ticket=5JdoVuTltfAvWg%2FaBYq40SvnVT0xZhhRK9fPaxA3iu2MgoceoLJpRqamQ9gnBuY2)
+* [cool-RR/PySnooper](https://github.com/cool-RR/pysnooper)：【待尝试】致力让用户抛弃`print`函数来 debug（然而，至少目前我还是习惯用 logging 模块，和`print`差不了多少）。[机器之心写的简介](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650760939&idx=1&sn=5b69c106549f329f83ca241e1bc71ff3&chksm=871aa295b06d2b83deade4fc16f99ed5354572c8838d202d0a229d804bb535815f2315d980d0&scene=0&xtrack=1&key=6854b25c2a023c1b259671991171b31fab8ca8f0b3be42cfe9746f0ac6a97af337c3f692988c69af5813e1658308b6087dc66c1d1f218619aab29c7d02dfc8b005eff42eea7fcb837022e321727f14b5&ascene=1&uin=MjA1ODkwNzIyNw%3D%3D&devicetype=Windows+10&version=62060739&lang=zh_CN&pass_ticket=5JdoVuTltfAvWg%2FaBYq40SvnVT0xZhhRK9fPaxA3iu2MgoceoLJpRqamQ9gnBuY2)
 
 ## 论文写作
 
@@ -132,6 +140,8 @@
 
 ### 语言表达
 
+#### 搭配查找
+
 * [Linggle](https://linggle.com/)：搜索最常出现的英文词语搭配。不确定自己的表达方式是否正确时使用。
 
 ![](https://raw.githubusercontent.com/bighuang624/pic-repo/master/Linggle.png)
@@ -140,15 +150,21 @@
 
 * [Thesaurus](https://www.thesaurus.com/)：将低端词汇转换为同义的高端词汇。
 
+* [易搜搭ESODA](http://www.esoda.org/)：清华HCI Lab工作室出品的一款适合国人英语写作的词组搭配查询工具。可切换具体研究方向的论文语料库，展示相关的可替换用法，支持中英混搜。
+
+#### 句式推荐
+
 * [Academic Phrasebank](http://www.phrasebank.manchester.ac.uk/)：学术用语库，告诉你各个章节适合用哪些句式搭配。
 
 ![](https://raw.githubusercontent.com/bighuang624/pic-repo/master/Academic%20Phrasebank.png)
 
-* [易搜搭ESODA](http://www.esoda.org/)：清华HCI Lab工作室出品的一款适合国人英语写作的词组搭配查询工具。可切换具体研究方向的论文语料库，展示相关的可替换用法，支持中英混搜。
+#### 写作检查
 
 * [Grammarly](https://www.grammarly.com/)：语法、句型、标点、选词检测修改，有浏览器插件。
 
 * [Nounplus.net](https://www.nounplus.net/)：免费的在线英文语法检测。
+
+* [LongGang Pang/proofread](https://gitlab.com/snowhitiger/proofread)：【待尝试】个人开源项目，目的是对科学文章草稿自动检查，寻找不符合英文科学写作标准的部分，并提出修改意见。作者写的介绍：[分享一个自己做的英文科学写作检查器 - 知乎](https://zhuanlan.zhihu.com/p/62351973)。
 
 ### 公式编辑
 
