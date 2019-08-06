@@ -2,7 +2,9 @@
 
 [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bighuang624/AI-research-tools/blob/master/LICENSE)
 
-> 推荐一些我喜欢的科研工具（有些限定于 AI 领域）
+> * 推荐一些我喜欢的科研工具（有些限定于 AI 领域）
+> * 标记【待尝试】的是我还未使用过但感觉比较有用的工具，会尽快尝试并根据体验决定是否保留
+> * 请通过 issues 等方式向我推荐您觉得好用的但不在此清单上的 AI 领域科研工具，感谢
 
 ## 目录  <!-- omit in toc -->
 - [AI-research-tools](#ai-research-tools)
@@ -16,15 +18,15 @@
     - [查阅下载](#%e6%9f%a5%e9%98%85%e4%b8%8b%e8%bd%bd)
     - [文献管理](#%e6%96%87%e7%8c%ae%e7%ae%a1%e7%90%86)
     - [文献翻译](#%e6%96%87%e7%8c%ae%e7%bf%bb%e8%af%91)
-    - [阅读笔记](#%e9%98%85%e8%af%bb%e7%ac%94%e8%ae%b0)
+    - [笔记工具](#%e7%ac%94%e8%ae%b0%e5%b7%a5%e5%85%b7)
   - [编码实验](#%e7%bc%96%e7%a0%81%e5%ae%9e%e9%aa%8c)
     - [Pytorch 相关](#pytorch-%e7%9b%b8%e5%85%b3)
+      - [封装](#%e5%b0%81%e8%a3%85)
+      - [项目管理](#%e9%a1%b9%e7%9b%ae%e7%ae%a1%e7%90%86)
       - [风格指南](#%e9%a3%8e%e6%a0%bc%e6%8c%87%e5%8d%97)
       - [项目模板](#%e9%a1%b9%e7%9b%ae%e6%a8%a1%e6%9d%bf)
       - [神经网络分析器](#%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c%e5%88%86%e6%9e%90%e5%99%a8)
       - [可视化](#%e5%8f%af%e8%a7%86%e5%8c%96)
-      - [项目管理](#%e9%a1%b9%e7%9b%ae%e7%ae%a1%e7%90%86)
-      - [其他](#%e5%85%b6%e4%bb%96)
     - [超参搜索](#%e8%b6%85%e5%8f%82%e6%90%9c%e7%b4%a2)
     - [Debug 工具](#debug-%e5%b7%a5%e5%85%b7)
   - [论文写作](#%e8%ae%ba%e6%96%87%e5%86%99%e4%bd%9c)
@@ -72,7 +74,7 @@
 
 ### 查阅下载
 
-* [SCI-Hub科研论文全文下载可用网址](http://tool.yovisun.com/scihub/)
+* [SCI-Hub 科研论文全文下载可用网址](http://tool.yovisun.com/scihub/)
 
 ### 文献管理
 
@@ -80,15 +82,25 @@
 
 ### 文献翻译
 
-* [CopyTranslator](https://copytranslator.github.io/)：该软件最大的优点在于有置顶、点按复制、监听剪贴板等功能，阅读文献配合使用时非常方便。
+* [CopyTranslator](https://copytranslator.github.io/)：最大的优点在于有置顶、点按复制、监听剪贴板等功能，阅读文献配合使用时可以无缝切换，非常方便。
 
-### 阅读笔记
+### 笔记工具
 
 我个人习惯使用[印象笔记](https://www.yinxiang.com/)。
 
 ## 编码实验
 
 ### Pytorch 相关
+
+#### 封装
+
+* [williamFalcon/pytorch-lightning](https://github.com/williamFalcon/pytorch-lightning)：将 PyTorch 开发中的各种通用配置（训练验证逻辑、超参搜索、分布式训练等）全部包装起来，以更高级的形式快速搭建模型。功能强大，有些复杂，正在摸索。[机器之心写的简介](https://mp.weixin.qq.com/s/5ueJvt1tcWW0wknpkM3WIg)
+
+* [skorch-dev/skorch](https://github.com/skorch-dev/skorch)：【待尝试】一个 scikit-learn 兼容的神经网络库，封装了 PyTorch。
+
+#### 项目管理
+
+* [torchtracer](https://oidiotlin.com/torchtracer/)：一个管理 PyTorch AI 实验项目的工具，主要用于保存各类训练数据（模型 checkpoints、超参数组合、日志、loss 变化曲线图像等）。
 
 #### 风格指南
 
@@ -102,9 +114,13 @@
 
 #### 神经网络分析器
 
-* <del>[Swall0w/torchstat](https://github.com/Swall0w/torchstat)：PyTorch 专用的轻量级神经网络分析器，可以展示网络的参数，空间大小，MAdd，FLOPs 等指标。</del>【支持的层种类过少，只包含卷积网络中常用的那些层】
+* [sksq96/pytorch-summary](https://github.com/sksq96/pytorch-summary)：打印 PyTorch 模型信息，包含模型每层的参数量、输出张量大小等。
 
-* <del>[Tramac/torchscope](https://github.com/Tramac/torchscope)：同样是 PyTorch 专用的神经网络分析器，看起来展示时比上面的 torchstat 更加清晰。</del>【支持的层种类过少，只包含卷积网络中常用的那些层，甚至不支持线性变换】
+* [sovrasov/flops-counter.pytorch](https://github.com/sovrasov/flops-counter.pytorch)：计算模型总共的 FLOPs（浮点运算数，理解为计算量，可以用来衡量算法/模型的复杂度）以及每层的占比。缺点是似乎不支持 RNN 相关层，另外打印下来的信息不是很方便看。
+
+* <del>[Swall0w/torchstat](https://github.com/Swall0w/torchstat)：PyTorch 专用的轻量级神经网络分析器，可以展示网络的参数，空间大小，MAdd，FLOPs 等指标。</del>【支持的层种类过少，只包含卷积网络中常用的那些层】【[有一个 bug 需要修改](https://github.com/Swall0w/torchstat/issues/14)】
+
+* <del>[Tramac/torchscope](https://github.com/Tramac/torchscope)：同样是 PyTorch 专用的神经网络分析器，看起来展示时比上面的 torchstat 更加清晰。</del>【对 Linear 层报错，貌似是 [torchstat 带来的 bug](https://github.com/Swall0w/torchstat/issues/18)】【同样不支持 RNN 相关层】【感觉有时间自己可以 fork 然后修改一下】
 
 #### 可视化
 
@@ -113,14 +129,6 @@
 * [facebookresearch/visdom](https://github.com/facebookresearch/visdom)：【待尝试】用于创建、组织和共享实时丰富数据可视化的灵活工具。
 
 * [Convolution Visualizer](https://ezyang.github.io/convolution-visualizer/index.html)：如果卷积层配置比较复杂，不方便计算输出大小时，可以利用这个可视化工具辅助。
-
-#### 项目管理
-
-* [torchtracer](https://oidiotlin.com/torchtracer/)：【待尝试】一个管理 PyTorch AI 实验项目的工具，主要用于保存各类训练数据（模型 checkpoints、超参数组合、图像等）。
-
-#### 其他
-
-* [skorch-dev/skorch](https://github.com/skorch-dev/skorch)：【待尝试】一个 scikit-learn 兼容的神经网络库，封装了 PyTorch。
 
 ### 超参搜索
 
@@ -164,7 +172,7 @@
 
 * [Nounplus.net](https://www.nounplus.net/)：免费的在线英文语法检测。
 
-* [LongGang Pang/proofread](https://gitlab.com/snowhitiger/proofread)：【待尝试】个人开源项目，目的是对科学文章草稿自动检查，寻找不符合英文科学写作标准的部分，并提出修改意见。作者写的介绍：[分享一个自己做的英文科学写作检查器 - 知乎](https://zhuanlan.zhihu.com/p/62351973)。
+* [LongGang Pang/proofread](https://gitlab.com/snowhitiger/proofread)：【待尝试】对科学文章草稿自动检查，寻找不符合英文科学写作标准的部分，并提出修改意见。作者写的介绍：[分享一个自己做的英文科学写作检查器 - 知乎](https://zhuanlan.zhihu.com/p/62351973)。
 
 ### 公式编辑
 
