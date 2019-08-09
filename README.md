@@ -21,7 +21,7 @@
     - [笔记工具](#%e7%ac%94%e8%ae%b0%e5%b7%a5%e5%85%b7)
   - [编码实验](#%e7%bc%96%e7%a0%81%e5%ae%9e%e9%aa%8c)
     - [Pytorch 相关](#pytorch-%e7%9b%b8%e5%85%b3)
-      - [封装](#%e5%b0%81%e8%a3%85)
+      - [功能配置封装](#%e5%8a%9f%e8%83%bd%e9%85%8d%e7%bd%ae%e5%b0%81%e8%a3%85)
       - [项目管理](#%e9%a1%b9%e7%9b%ae%e7%ae%a1%e7%90%86)
       - [风格指南](#%e9%a3%8e%e6%a0%bc%e6%8c%87%e5%8d%97)
       - [项目模板](#%e9%a1%b9%e7%9b%ae%e6%a8%a1%e6%9d%bf)
@@ -92,7 +92,7 @@
 
 ### Pytorch 相关
 
-#### 封装
+#### 功能配置封装
 
 * [williamFalcon/pytorch-lightning](https://github.com/williamFalcon/pytorch-lightning)：将 PyTorch 开发中的各种通用配置（训练验证逻辑、超参搜索、分布式训练等）全部包装起来，以更高级的形式快速搭建模型。功能强大，有些复杂，正在摸索。[机器之心写的简介](https://mp.weixin.qq.com/s/5ueJvt1tcWW0wknpkM3WIg)
 
@@ -135,6 +135,8 @@
 * [microsoft/nni](https://github.com/microsoft/nni/blob/master/README_zh_CN.md)：【待尝试】用于神经模型搜索和超参数调优的开源自动机器学习（AutoML）的工具包，支持绝大多数主流框架和运行环境。
 
 * [Hyperopt](http://hyperopt.github.io/hyperopt/)：【待尝试】分布式异步超参数优化。看到知乎上有人推荐，不过根据文档来看，目前支持的优化算法只有两种，且不包括贝叶斯优化。
+
+* [Optuna](https://github.com/pfnet/optuna)：【待尝试】自动超参数优化框架。
 
 ### Debug 工具
 
