@@ -27,6 +27,7 @@
       - [项目模板](#%e9%a1%b9%e7%9b%ae%e6%a8%a1%e6%9d%bf)
       - [神经网络分析器](#%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c%e5%88%86%e6%9e%90%e5%99%a8)
       - [可视化](#%e5%8f%af%e8%a7%86%e5%8c%96)
+    - [特征工程](#%e7%89%b9%e5%be%81%e5%b7%a5%e7%a8%8b)
     - [超参搜索](#%e8%b6%85%e5%8f%82%e6%90%9c%e7%b4%a2)
     - [Debug 工具](#debug-%e5%b7%a5%e5%85%b7)
   - [论文写作](#%e8%ae%ba%e6%96%87%e5%86%99%e4%bd%9c)
@@ -130,6 +131,10 @@
 
 * [Convolution Visualizer](https://ezyang.github.io/convolution-visualizer/index.html)：如果卷积层配置比较复杂，不方便计算输出大小时，可以利用这个可视化工具辅助。
 
+### 特征工程
+
+* [Featuretools](https://github.com/featuretools/featuretools)：【待尝试】自动化特征工程库。
+
 ### 超参搜索
 
 * [microsoft/nni](https://github.com/microsoft/nni/blob/master/README_zh_CN.md)：【待尝试】用于神经模型搜索和超参数调优的开源自动机器学习（AutoML）的工具包，支持绝大多数主流框架和运行环境。
@@ -137,6 +142,8 @@
 * [Hyperopt](http://hyperopt.github.io/hyperopt/)：【待尝试】分布式异步超参数优化。看到知乎上有人推荐，不过根据文档来看，目前支持的优化算法只有两种，且不包括贝叶斯优化。
 
 * [Optuna](https://github.com/pfnet/optuna)：【待尝试】自动超参数优化框架。
+
+* [BoTorch](https://github.com/pytorch/botorch)：【待尝试】基于 PyTorch 的贝叶斯优化库。
 
 ### Debug 工具
 
