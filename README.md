@@ -44,6 +44,7 @@
   - [会议投递](#%e4%bc%9a%e8%ae%ae%e6%8a%95%e9%80%92)
     - [会议查找筛选](#%e4%bc%9a%e8%ae%ae%e6%9f%a5%e6%89%be%e7%ad%9b%e9%80%89)
     - [匿名链接](#%e5%8c%bf%e5%90%8d%e9%93%be%e6%8e%a5)
+    - [代码开源](#%e4%bb%a3%e7%a0%81%e5%bc%80%e6%ba%90)
 
 ## 论文查找
 
@@ -145,6 +146,8 @@
 
 * [BoTorch](https://github.com/pytorch/botorch)：【待尝试】基于 PyTorch 的贝叶斯优化库。
 
+* [automl/Auto-PyTorch](https://github.com/automl/Auto-PyTorch)：【待尝试】基于 PyTorch 的自动结构搜素和超参数搜索。
+
 ### Debug 工具
 
 * [cool-RR/PySnooper](https://github.com/cool-RR/pysnooper)：【待尝试】致力让用户抛弃`print`函数来 debug（然而，至少目前我还是习惯用 logging 模块，和`print`差不了多少）。[机器之心写的简介](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650760939&idx=1&sn=5b69c106549f329f83ca241e1bc71ff3&chksm=871aa295b06d2b83deade4fc16f99ed5354572c8838d202d0a229d804bb535815f2315d980d0&scene=0&xtrack=1&key=6854b25c2a023c1b259671991171b31fab8ca8f0b3be42cfe9746f0ac6a97af337c3f692988c69af5813e1658308b6087dc66c1d1f218619aab29c7d02dfc8b005eff42eea7fcb837022e321727f14b5&ascene=1&uin=MjA1ODkwNzIyNw%3D%3D&devicetype=Windows+10&version=62060739&lang=zh_CN&pass_ticket=5JdoVuTltfAvWg%2FaBYq40SvnVT0xZhhRK9fPaxA3iu2MgoceoLJpRqamQ9gnBuY2)
@@ -169,6 +172,8 @@
 
 * [易搜搭ESODA](http://www.esoda.org/)：清华HCI Lab工作室出品的一款适合国人英语写作的词组搭配查询工具。可切换具体研究方向的论文语料库，展示相关的可替换用法，支持中英混搜。
 
+* [Words and phrases: frequency, genres, collocates, concordances, synonyms, and WordNet](https://www.wordandphrase.info/analyzeText.asp)：用不同颜色区分高中低频词，展现代表文章类型的词汇，并归类出相关可替换的词。虽然说是英文写作措辞辅助工具，感觉最大的用途是学习相关领域论文常用的词汇和搭配。
+
 #### 句式推荐
 
 * [Academic Phrasebank](http://www.phrasebank.manchester.ac.uk/)：学术用语库，告诉你各个章节适合用哪些句式搭配。
@@ -176,6 +181,8 @@
 ![](https://raw.githubusercontent.com/bighuang624/pic-repo/master/Academic%20Phrasebank.png)
 
 #### 写作检查
+
+请注意在线检测工具的泄露风险，谨慎处理关键文字。
 
 * [Grammarly](https://www.grammarly.com/)：语法、句型、标点、选词检测修改，有浏览器插件。
 
@@ -241,6 +248,8 @@
 
 * [Conference Partner (会伴)](http://www.myhuiban.com/)：计算机最新国际会议和期刊列表。可以注册以关注会议或期刊。全，但目前信息更新不及时。
 
+* [Call4Papers - CCF推荐列表](http://www.call4papers.cn/ccf/ccf-8.jsp)：按照 CCF 类别展示各会议和期刊的截稿时间。
+
 * [lixin4ever/Conference-Acceptance-Rate](https://github.com/lixin4ever/Conference-Acceptance-Rate)：主要会议近年录取率统计。
 
 ### 匿名链接
@@ -252,3 +261,9 @@
 * [Open Science Framework](http://help.osf.io/m/links_forks/l/783581-create-a-view-only-link-for-a-registration)
 
 * [Figshare](https://knowledge.figshare.com/articles/item/how-to-share-cite-or-embed-my-data)
+
+### 代码开源
+
+为已发表的论文提供清晰、可复现的代码能够有效推动领域发展。这里推荐一些对开源代码有帮助的工具。
+
+* [Damnever/pigar](https://github.com/Damnever/pigar)：Python 项目 requirements 文件自动生成工具。
