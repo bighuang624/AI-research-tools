@@ -27,6 +27,7 @@
       - [项目模板](#%e9%a1%b9%e7%9b%ae%e6%a8%a1%e6%9d%bf)
       - [神经网络分析器](#%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c%e5%88%86%e6%9e%90%e5%99%a8)
       - [可视化](#%e5%8f%af%e8%a7%86%e5%8c%96)
+    - [数据集查找](#%e6%95%b0%e6%8d%ae%e9%9b%86%e6%9f%a5%e6%89%be)
     - [特征工程](#%e7%89%b9%e5%be%81%e5%b7%a5%e7%a8%8b)
     - [超参搜索](#%e8%b6%85%e5%8f%82%e6%90%9c%e7%b4%a2)
     - [Debug 工具](#debug-%e5%b7%a5%e5%85%b7)
@@ -63,7 +64,7 @@
 
 ### 代码实现查找
 
-* [Papers With Code](https://paperswithcode.com/)：自动把论文连接到实现代码的 GitHub 资源库和数据集，并根据 GitHub 的收藏量排序。每篇论文可能有多个合并的条目。
+* [Papers With Code](https://paperswithcode.com/)：自动把论文连接到实现代码的 GitHub 资源库和数据集，并根据 GitHub 的收藏量排序。展示各任务上的 SOTA 以供比较。
 * [rasbt/deeplearning-models](https://github.com/rasbt/deeplearning-models)：使用 TensorFlow 和 PyTorch 实现各种深度学习模型的合集。
 
 ## 趋势关注
@@ -100,6 +101,8 @@
 
 * [skorch-dev/skorch](https://github.com/skorch-dev/skorch)：【待尝试】一个 scikit-learn 兼容的神经网络库，封装了 PyTorch。
 
+* [donnyyou/torchcv](https://github.com/donnyyou/torchcv)：基于 PyTorch 的 CV 模型框架，包含图像分类、语义分割、目标检测、姿态检测、实例分割、生成对抗网络等任务中的多个常见模型。
+
 #### 项目管理
 
 * [torchtracer](https://oidiotlin.com/torchtracer/)：一个管理 PyTorch AI 实验项目的工具，主要用于保存各类训练数据（模型 checkpoints、超参数组合、日志、loss 变化曲线图像等）。
@@ -131,6 +134,10 @@
 * [facebookresearch/visdom](https://github.com/facebookresearch/visdom)：【待尝试】用于创建、组织和共享实时丰富数据可视化的灵活工具。
 
 * [Convolution Visualizer](https://ezyang.github.io/convolution-visualizer/index.html)：如果卷积层配置比较复杂，不方便计算输出大小时，可以利用这个可视化工具辅助。
+
+### 数据集查找
+
+* [Google Dataset Search](https://toolbox.google.com/datasetsearch)
 
 ### 特征工程
 
@@ -234,7 +241,7 @@
 
 * [Convert PNG/JPEG (Raster) to EPS/PDF (Vector) Format](http://www.tlhiv.org/rast2vec/)：将 jpg、png 格式的图片文件转换为 eps 文件。
 
-* [EPS到PDF转换器](https://convertio.co/zh/eps-pdf/)
+* [EPS到PDF转换器](https://convertio.co/zh/eps-pdf/)：也可以将 eps 文件转换为别的格式的图片。
 
 * [Crop PDF files online - PDF Tools](https://pdfresizer.com/crop)：裁剪 pdf 文件的白边。
 
