@@ -8,12 +8,12 @@
 
 ## 目录  <!-- omit in toc -->
 - [AI-research-tools](#ai-research-tools)
+  - [趋势关注](#%e8%b6%8b%e5%8a%bf%e5%85%b3%e6%b3%a8)
+    - [RSS 阅读器](#rss-%e9%98%85%e8%af%bb%e5%99%a8)
   - [论文查找](#%e8%ae%ba%e6%96%87%e6%9f%a5%e6%89%be)
     - [搜索引擎](#%e6%90%9c%e7%b4%a2%e5%bc%95%e6%93%8e)
     - [arXiv 相关](#arxiv-%e7%9b%b8%e5%85%b3)
     - [代码实现查找](#%e4%bb%a3%e7%a0%81%e5%ae%9e%e7%8e%b0%e6%9f%a5%e6%89%be)
-  - [趋势关注](#%e8%b6%8b%e5%8a%bf%e5%85%b3%e6%b3%a8)
-    - [RSS 阅读器](#rss-%e9%98%85%e8%af%bb%e5%99%a8)
   - [论文阅读](#%e8%ae%ba%e6%96%87%e9%98%85%e8%af%bb)
     - [查阅下载](#%e6%9f%a5%e9%98%85%e4%b8%8b%e8%bd%bd)
     - [文献管理](#%e6%96%87%e7%8c%ae%e7%ae%a1%e7%90%86)
@@ -46,6 +46,14 @@
     - [会议查找筛选](#%e4%bc%9a%e8%ae%ae%e6%9f%a5%e6%89%be%e7%ad%9b%e9%80%89)
     - [匿名链接](#%e5%8c%bf%e5%90%8d%e9%93%be%e6%8e%a5)
     - [代码开源](#%e4%bb%a3%e7%a0%81%e5%bc%80%e6%ba%90)
+  - [其他](#%e5%85%b6%e4%bb%96)
+    - [专注工作](#%e4%b8%93%e6%b3%a8%e5%b7%a5%e4%bd%9c)
+
+## 趋势关注
+
+### RSS 阅读器
+
+* [irreader 阅读器 - FATECORE](http://irreader.fatecore.com/)：这是我现在在使用的 RSS 阅读器。一个非常大的优点是，对于一些没有提供 RSS 订阅源的网站，irreader 可以自定义 RSS 订阅源。另外，订阅的 RSS 更新时，有弹窗提醒。还有一个我暂时用不到的功能是，irreader 同时支持订阅播客和播放有声媒体。
 
 ## 论文查找
 
@@ -66,12 +74,6 @@
 
 * [Papers With Code](https://paperswithcode.com/)：自动把论文连接到实现代码的 GitHub 资源库和数据集，并根据 GitHub 的收藏量排序。展示各任务上的 SOTA 以供比较。
 * [rasbt/deeplearning-models](https://github.com/rasbt/deeplearning-models)：使用 TensorFlow 和 PyTorch 实现各种深度学习模型的合集。
-
-## 趋势关注
-
-### RSS 阅读器
-
-* [irreader 阅读器 - FATECORE](http://irreader.fatecore.com/)：这是我现在在使用的 RSS 阅读器。一个非常大的优点是，对于一些没有提供 RSS 订阅源的网站，irreader 可以自定义 RSS 订阅源。另外，订阅的 RSS 更新时，有弹窗提醒。还有一个我暂时用不到的功能是，irreader 同时支持订阅播客和播放有声媒体。
 
 ## 论文阅读
 
@@ -163,6 +165,7 @@
 
 ### LaTeX 编辑器
 
+* 我个人习惯使用 VSCode 进行离线的 LaTeX 写作。
 * [Overleaf](https://www.overleaf.com/)：支持多人协作的**在线** LaTeX 编辑器。但是对网络要求较高。
 
 ### 语言表达
@@ -216,6 +219,8 @@
 * [Excel2LaTeX](https://ctan.org/tex-archive/support/excel2latex)：用在 Excel 上的宏工具，能够将 Excel 表格转换为 LaTeX 代码，节省很多时间。能够满足大多数效果的转换，有些效果可能需要微调。
 
 ### 模型绘图
+
+* PPT 是个不错的选择：入手快，种类多，支持导出矢量图。
 
 * [Inkscape](https://inkscape.org/) with [latex equation extensions](https://writetex.tk/)：【待尝试】
 
@@ -274,3 +279,9 @@
 为已发表的论文提供清晰、可复现的代码能够有效推动领域发展。这里推荐一些对开源代码有帮助的工具。
 
 * [Damnever/pigar](https://github.com/Damnever/pigar)：Python 项目 requirements 文件自动生成工具。
+
+## 其他
+
+### 专注工作
+
+* [番茄·人生](http://www.tomatolife.cn/index.html)：Windows PC 端待办事项软件，番茄工作法时钟。
