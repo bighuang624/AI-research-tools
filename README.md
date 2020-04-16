@@ -68,11 +68,13 @@
 ### arXiv 相关
 
 * [arXiv-sanity](http://arxiv-sanity.com/)：相比于 arXiv 有很大的改进，包括在浏览中显示摘要、评论和非常基本的社交、推荐、库功能。
+
 * [Semantic Sanity: A Personalized Adaptive Feed](https://s2-sanity.apps.allenai.org)：创建自己的个性化 arXiv 选读 Feed。创建每个 Feed 时，会让您先选择几篇论文，然后根据这几篇论文开始推荐，对于推荐结果可以点赞或者不喜欢来帮助调整推荐结果。
 
 ### 代码实现查找
 
 * [Papers With Code](https://paperswithcode.com/)：自动把论文连接到实现代码的 GitHub 资源库和数据集，并根据 GitHub 的收藏量排序。展示各任务上的 SOTA 以供比较。
+
 * [rasbt/deeplearning-models](https://github.com/rasbt/deeplearning-models)：使用 TensorFlow 和 PyTorch 实现各种深度学习模型的合集。
 
 ## 论文阅读
@@ -131,7 +133,7 @@
 
 #### 可视化
 
-* [lanpa/tensorboardX](https://github.com/lanpa/tensorboardX)：强大的可视化工具。有一个问题是，当每个 epoch 的实验结果都记录时，epoch 多了感觉有些卡。
+* PyTorch 最新版本已经带有 tensorboard。[官方 tutorial](https://pytorch.org/tutorials/intermediate/tensorboard_tutorial.html)。
 
 * [facebookresearch/visdom](https://github.com/facebookresearch/visdom)：【待尝试】用于创建、组织和共享实时丰富数据可视化的灵活工具。
 
@@ -165,7 +167,8 @@
 
 ### LaTeX 编辑器
 
-* 我个人习惯使用 VSCode 进行离线的 LaTeX 写作。
+* 我个人习惯使用 VSCode 进行离线的 LaTeX 写作，配合 Github 私有库进行版本管理。
+
 * [Overleaf](https://www.overleaf.com/)：支持多人协作的**在线** LaTeX 编辑器。但是对网络要求较高。
 
 ### 语言表达
@@ -173,8 +176,6 @@
 #### 搭配查找
 
 * [Linggle](https://linggle.com/)：搜索最常出现的英文词语搭配。不确定自己的表达方式是否正确时使用。
-
-![](https://raw.githubusercontent.com/bighuang624/pic-repo/master/Linggle.png)
 
 * [Corpus of Contemporary American English (COCA)](https://www.english-corpora.org/coca/)：可以查词汇搭配的**美式**英语语料库，可以查看具体的用了这个词的句子。 [British National Corpus (BYU-BNC)](https://www.english-corpora.org/bnc/)：英式英语的语料库，语料比美式的少一些
 
@@ -187,8 +188,6 @@
 #### 句式推荐
 
 * [Academic Phrasebank](http://www.phrasebank.manchester.ac.uk/)：学术用语库，告诉你各个章节适合用哪些句式搭配。
-
-![](https://raw.githubusercontent.com/bighuang624/pic-repo/master/Academic%20Phrasebank.png)
 
 #### 写作检查
 
@@ -220,7 +219,7 @@
 
 ### 模型绘图
 
-* PPT 是个不错的选择：入手快，种类多，支持导出矢量图。
+* PPT 通常是我的第一选择：入手快，种类多，支持导出矢量图。
 
 * [Inkscape](https://inkscape.org/) with [latex equation extensions](https://writetex.tk/)：【待尝试】
 
@@ -228,19 +227,9 @@
 
 * [xinychen/academic-drawing](https://github.com/xinychen/academic-drawing)：Matlab/Python 绘图，主要用于画时序数据。
 
-![](https://pic1.zhimg.com/v2-0d53a2844e564dce2de10a9db1a065c0_b.jpg)
-
-![](https://pic3.zhimg.com/v2-301427b2eb16c35a5f048bf4fab60a7a_b.jpg)
-
 * [xinychen/awesome-latex-drawing](https://github.com/xinychen/awesome-latex-drawing)：LaTeX 绘图，主要用于画贝叶斯网络、张量分解等。
 
-![](https://pic3.zhimg.com/v2-d63bab55b236bda9b9fe07ba3ba42506_b.jpg)
-
-![](https://pic1.zhimg.com/v2-b6ef40fd9307891f67538aa1c8c8e558_b.jpg)
-
 * [HarisIqbal88/PlotNeuralNet](https://github.com/HarisIqbal88/PlotNeuralNet)：Python 得到可用于 LaTeX 的图，主要画 CNN。
-
-![](https://user-images.githubusercontent.com/17570785/50308846-c2231880-049c-11e9-8763-3daa1024de78.png)
 
 #### 图片转换
 
@@ -258,7 +247,7 @@
 
 * [AI Conference Deadlines](https://aideadlin.es/)：可以根据研究方向筛选会议。但是好像需要科学上网才能看到全部信息。
 
-* [Conference Partner (会伴)](http://www.myhuiban.com/)：计算机最新国际会议和期刊列表。可以注册以关注会议或期刊。全，但目前信息更新不及时。
+* [Conference Partner (会伴)](http://www.myhuiban.com/)：计算机最新国际会议和期刊列表。可以注册以关注会议或期刊。比较全，但目前信息更新不及时。
 
 * [Call4Papers - CCF推荐列表](http://www.call4papers.cn/ccf/ccf-8.jsp)：按照 CCF 类别展示各会议和期刊的截稿时间。
 
