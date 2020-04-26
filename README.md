@@ -27,6 +27,7 @@
       - [项目模板](#%e9%a1%b9%e7%9b%ae%e6%a8%a1%e6%9d%bf)
       - [神经网络分析器](#%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c%e5%88%86%e6%9e%90%e5%99%a8)
       - [可视化](#%e5%8f%af%e8%a7%86%e5%8c%96)
+    - [实验记录](#%e5%ae%9e%e9%aa%8c%e8%ae%b0%e5%bd%95)
     - [数据集查找](#%e6%95%b0%e6%8d%ae%e9%9b%86%e6%9f%a5%e6%89%be)
     - [特征工程](#%e7%89%b9%e5%be%81%e5%b7%a5%e7%a8%8b)
     - [超参搜索](#%e8%b6%85%e5%8f%82%e6%90%9c%e7%b4%a2)
@@ -138,6 +139,10 @@
 * [facebookresearch/visdom](https://github.com/facebookresearch/visdom)：【待尝试】用于创建、组织和共享实时丰富数据可视化的灵活工具。
 
 * [Convolution Visualizer](https://ezyang.github.io/convolution-visualizer/index.html)：如果卷积层配置比较复杂，不方便计算输出大小时，可以利用这个可视化工具辅助。
+
+### 实验记录
+
+* [fastnlp/fitlog](https://github.com/fastnlp/fitlog)：【待尝试】架构无关的实验记录工具，可以看[邱锡鹏老师在知乎写的介绍](https://www.zhihu.com/question/384519338/answer/1181186086)。
 
 ### 数据集查找
 
