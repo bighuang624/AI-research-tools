@@ -68,9 +68,13 @@
 
 ### arXiv 相关
 
-* [arXiv-sanity](http://arxiv-sanity.com/)：相比于 arXiv 有很大的改进，包括在浏览中显示摘要、评论和非常基本的社交、推荐、库功能。
+* [arXiv](https://arxiv.org/): 论文预印本收录网站。
+
+* [arXiv-sanity](http://arxiv-sanity.com/)：在功能上相比于 arXiv 有很大的改进，包括在浏览中显示摘要、评论和非常基本的社交、推荐、库功能。搜索也更好用。
 
 * [Semantic Sanity: A Personalized Adaptive Feed](https://s2-sanity.apps.allenai.org)：创建自己的个性化 arXiv 选读 Feed。创建每个 Feed 时，会让您先选择几篇论文，然后根据这几篇论文开始推荐，对于推荐结果可以点赞或者不喜欢来帮助调整推荐结果。
+
+* [卖萌屋Arxiv服务](http://arxiv.xixiaoyao.cn/): 只包含 arxiv 当日更新的论文。优点在于把作者机构也展示出来。仍在改进。
 
 ### 代码实现查找
 
@@ -180,6 +184,8 @@
 
 #### 搭配查找
 
+可以看一下这篇文章的推荐：[有了这些网站，英文论文再也不难写了（15个英文论文写作辅助网站介绍和使用技巧） - 知乎](https://zhuanlan.zhihu.com/p/35396232)
+
 * [Linggle](https://linggle.com/)：搜索最常出现的英文词语搭配。不确定自己的表达方式是否正确时使用。
 
 * [Corpus of Contemporary American English (COCA)](https://www.english-corpora.org/coca/)：可以查词汇搭配的**美式**英语语料库，可以查看具体的用了这个词的句子。 [British National Corpus (BYU-BNC)](https://www.english-corpora.org/bnc/)：英式英语的语料库，语料比美式的少一些
@@ -209,6 +215,8 @@
 * [Mathpix](https://mathpix.com/)：通过截取复杂数学方程式的截图将其转换为 LaTeX 代码。可以处理 PDF 的印刷体和照片中的手写公式等。
 
 * [MyScript Webdemo](https://webdemo.myscript.com/)：Math 模块可以将手写公式转为 LaTeX 代码；同时，Diagram 模块可以将手绘的框图转化为工整的框图。
+
+* [Detexify LaTeX handwritten symbol recognition](http://detexify.kirelabs.org/classify.html): 忘记某些字符用 LaTeX 怎么表示时，可以在这个网站上通过手写来查询。
 
 ### 截屏悬浮
 
