@@ -76,6 +76,8 @@
 
 * [卖萌屋Arxiv服务](http://arxiv.xixiaoyao.cn/): 只包含 arxiv 当日更新的论文。优点在于把作者机构也展示出来。仍在改进。
 
+* [Paper Digest – AI for tracking and summarizing papers](https://www.paperdigest.org/): 提供邮件订阅前一天出的论文的列表，附有每篇论文的一句话总结。在会议论文公布时，这个网站也会整理。
+
 ### 代码实现查找
 
 * [Papers With Code](https://paperswithcode.com/)：自动把论文连接到实现代码的 GitHub 资源库和数据集，并根据 GitHub 的收藏量排序。展示各任务上的 SOTA 以供比较。
