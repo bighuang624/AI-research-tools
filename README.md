@@ -33,6 +33,7 @@
     - [超参搜索](#%e8%b6%85%e5%8f%82%e6%90%9c%e7%b4%a2)
     - [Debug 工具](#debug-%e5%b7%a5%e5%85%b7)
   - [论文写作](#%e8%ae%ba%e6%96%87%e5%86%99%e4%bd%9c)
+    - [LaTeX 模板](#latex-%e6%a8%a1%e6%9d%bf)
     - [LaTeX 编辑器](#latex-%e7%bc%96%e8%be%91%e5%99%a8)
     - [语言表达](#%e8%af%ad%e8%a8%80%e8%a1%a8%e8%be%be)
       - [搭配查找](#%e6%90%ad%e9%85%8d%e6%9f%a5%e6%89%be)
@@ -177,6 +178,14 @@
 * [cool-RR/PySnooper](https://github.com/cool-RR/pysnooper)：【待尝试】致力让用户抛弃`print`函数来 debug（然而，至少目前我还是习惯用 logging 模块，和`print`差不了多少）。[机器之心写的简介](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650760939&idx=1&sn=5b69c106549f329f83ca241e1bc71ff3&chksm=871aa295b06d2b83deade4fc16f99ed5354572c8838d202d0a229d804bb535815f2315d980d0&scene=0&xtrack=1&key=6854b25c2a023c1b259671991171b31fab8ca8f0b3be42cfe9746f0ac6a97af337c3f692988c69af5813e1658308b6087dc66c1d1f218619aab29c7d02dfc8b005eff42eea7fcb837022e321727f14b5&ascene=1&uin=MjA1ODkwNzIyNw%3D%3D&devicetype=Windows+10&version=62060739&lang=zh_CN&pass_ticket=5JdoVuTltfAvWg%2FaBYq40SvnVT0xZhhRK9fPaxA3iu2MgoceoLJpRqamQ9gnBuY2)
 
 ## 论文写作
+
+### LaTeX 模板
+
+包括论文、报告、海报等在内的各种 LaTeX 模板。
+
+* [Templates from Overleaf](https://www.overleaf.com/latex/templates)
+
+* [LaTeX Templates](http://www.latextemplates.com/)
 
 ### LaTeX 编辑器
 
