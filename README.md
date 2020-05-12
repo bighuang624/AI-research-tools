@@ -98,6 +98,8 @@
 
 * [CopyTranslator](https://copytranslator.github.io/)：最大的优点在于有置顶、点按复制、监听剪贴板等功能，阅读文献配合使用时可以无缝切换，非常方便。
 
+* [Saladict 沙拉查词](https://saladict.crimx.com/)：浏览器翻译插件，有非常丰富的设置来配合用户的使用习惯。除了官方文档，也可以看 [沙拉查词 + Alfred，打造最佳文献翻译体验！ - 知乎](https://zhuanlan.zhihu.com/p/113809716) 来了解。我还在探索如何在 Windows 系统上实现浏览器外翻译。
+
 ### 笔记工具
 
 我个人习惯使用[印象笔记](https://www.yinxiang.com/)。
@@ -160,11 +162,11 @@
 
 ### 超参搜索
 
+* [optuna](https://github.com/optuna/optuna)：自动超参数优化框架。
+
 * [microsoft/nni](https://github.com/microsoft/nni/blob/master/README_zh_CN.md)：【待尝试】用于神经模型搜索和超参数调优的开源自动机器学习（AutoML）的工具包，支持绝大多数主流框架和运行环境。
 
 * [Hyperopt](http://hyperopt.github.io/hyperopt/)：【待尝试】分布式异步超参数优化。看到知乎上有人推荐，不过根据文档来看，目前支持的优化算法只有两种，且不包括贝叶斯优化。
-
-* [Optuna](https://github.com/pfnet/optuna)：【待尝试】自动超参数优化框架。
 
 * [BoTorch](https://github.com/pytorch/botorch)：【待尝试】基于 PyTorch 的贝叶斯优化库。
 
