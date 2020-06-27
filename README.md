@@ -23,6 +23,7 @@
   - [编码实验](#编码实验)
     - [Pytorch 相关](#pytorch-相关)
       - [功能配置封装](#功能配置封装)
+      - [项目参考](#项目参考)
       - [项目管理](#项目管理)
       - [风格指南](#风格指南)
       - [项目模板](#项目模板)
@@ -51,6 +52,7 @@
     - [匿名链接](#匿名链接)
     - [代码开源](#代码开源)
   - [其他](#其他)
+    - [专利检索](#专利检索)
     - [专注工作](#专注工作)
 
 ## 趋势关注
@@ -115,7 +117,11 @@
 
 * [williamFalcon/pytorch-lightning](https://github.com/williamFalcon/pytorch-lightning)：将 PyTorch 开发中的各种通用配置（训练验证逻辑、超参搜索、分布式训练等）全部包装起来，以更高级的形式快速搭建模型。功能强大，有些复杂，正在摸索。[机器之心写的简介](https://mp.weixin.qq.com/s/5ueJvt1tcWW0wknpkM3WIg)
 
-* [skorch-dev/skorch](https://github.com/skorch-dev/skorch)：【待尝试】一个 scikit-learn 兼容的神经网络库，封装了 PyTorch。
+#### 项目参考
+
+* [ritchieng/the-incredible-pytorch](https://github.com/ritchieng/the-incredible-pytorch)：有关 PyTorch 的各种教程、项目、视频等资源。
+
+* [microsoft/computervision-recipes](https://github.com/microsoft/computervision-recipes)：微软出品，基于 PyTorch 的各种 CV 任务的教程。
 
 * [donnyyou/torchcv](https://github.com/donnyyou/torchcv)：基于 PyTorch 的 CV 模型框架，包含图像分类、语义分割、目标检测、姿态检测、实例分割、生成对抗网络等任务中的多个常见模型。
 
@@ -302,6 +308,10 @@
 * [Damnever/pigar](https://github.com/Damnever/pigar)：Python 项目 requirements 文件自动生成工具。
 
 ## 其他
+
+### 专利检索
+
+* [Google Patents](https://iseex.github.io//2020-05/Google-Patents/)：免费检索和下载中英文专利。具体可见 [Google Patents，免费检索和下载中英文专利的最佳工具！](https://iseex.github.io//2020-05/Google-Patents/)。
 
 ### 专注工作
 
