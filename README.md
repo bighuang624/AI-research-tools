@@ -31,6 +31,7 @@
       - [可视化](#可视化)
     - [实验记录](#实验记录)
     - [数据集查找](#数据集查找)
+    - [数据集下载](#数据集下载)
     - [特征工程](#特征工程)
     - [超参搜索](#超参搜索)
     - [Debug 工具](#debug-工具)
@@ -70,6 +71,8 @@
 * [Semantic scholar](https://www.semanticscholar.org/)：可以结合外部材料整合进行论文的语义分析。功能包括：展示引用和参考文献、度量论文影响力、展示论文图表、自动生成关键词（根据标题）、分析作者、在互联网寻找额外资源（例如，相关 youtube 视频），以及推荐论文。
 
 * [dblp: computer science bibliography](https://dblp.org/)：专为 CS 设计的论文查询网站，收录比较顶级并可以被检索到的论文。可以根据会议、期刊等分类查询作者的论文，想搜一个计算机会议的所有文章时好用。
+
+* [中国知网海外服务](https://chn.oversea.cnki.net/index/)：支持全 PDF 格式下载。具体可见 [海外版知网升级了！（全PDF下载），从此告别CAJ阅读器！](https://iseex.github.io//2020-07/CNKI-oversea/)。
 
 ### arXiv 相关
 
@@ -164,6 +167,12 @@
 ### 数据集查找
 
 * [Google Dataset Search](https://toolbox.google.com/datasetsearch)
+
+* [Data Search | Bifrost](https://datasets.bifrost.ai/)：视觉数据集搜索。
+
+### 数据集下载
+
+* 针对在 Google Drive 上下载大型数据集常发生的失败现象，推荐 [wkentaro / gdown](https://github.com/wkentaro/gdown)。
 
 ### 特征工程
 
