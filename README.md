@@ -55,6 +55,7 @@
   - [其他](#其他)
     - [专利检索](#专利检索)
     - [专注工作](#专注工作)
+    - [白噪声 / 音乐](#白噪声--音乐)
 
 ## 趋势关注
 
@@ -110,7 +111,7 @@
 
 ### 笔记工具
 
-我个人习惯使用[印象笔记](https://www.yinxiang.com/)。
+* 我个人习惯使用[印象笔记](https://www.yinxiang.com/)。
 
 ## 编码实验
 
@@ -148,9 +149,9 @@
 
 * [sovrasov/flops-counter.pytorch](https://github.com/sovrasov/flops-counter.pytorch)：计算模型总共的 FLOPs（浮点运算数，理解为计算量，可以用来衡量算法/模型的复杂度）以及每层的占比。缺点是似乎不支持 RNN 相关层，另外打印下来的信息不是很方便看。
 
-* <del>[Swall0w/torchstat](https://github.com/Swall0w/torchstat)：PyTorch 专用的轻量级神经网络分析器，可以展示网络的参数，空间大小，MAdd，FLOPs 等指标。</del>【支持的层种类过少，只包含卷积网络中常用的那些层】【[有一个 bug 需要修改](https://github.com/Swall0w/torchstat/issues/14)】
+<!-- * <del>[Swall0w/torchstat](https://github.com/Swall0w/torchstat)：PyTorch 专用的轻量级神经网络分析器，可以展示网络的参数，空间大小，MAdd，FLOPs 等指标。</del>【支持的层种类过少，只包含卷积网络中常用的那些层】【[有一个 bug 需要修改](https://github.com/Swall0w/torchstat/issues/14)】
 
-* <del>[Tramac/torchscope](https://github.com/Tramac/torchscope)：同样是 PyTorch 专用的神经网络分析器，看起来展示时比上面的 torchstat 更加清晰。</del>【对 Linear 层报错，貌似是 [torchstat 带来的 bug](https://github.com/Swall0w/torchstat/issues/18)】【同样不支持 RNN 相关层】【感觉有时间自己可以 fork 然后修改一下】
+* <del>[Tramac/torchscope](https://github.com/Tramac/torchscope)：同样是 PyTorch 专用的神经网络分析器，看起来展示时比上面的 torchstat 更加清晰。</del>【对 Linear 层报错，貌似是 [torchstat 带来的 bug](https://github.com/Swall0w/torchstat/issues/18)】【同样不支持 RNN 相关层】【感觉有时间自己可以 fork 然后修改一下】 -->
 
 #### 可视化
 
@@ -208,7 +209,7 @@
 
 * 我个人习惯使用 VSCode 进行离线的 LaTeX 写作，配合 Github 私有库进行版本管理。
 
-* [Overleaf](https://www.overleaf.com/)：支持多人协作的**在线** LaTeX 编辑器。但是对网络要求较高。
+* [Overleaf](https://www.overleaf.com/)：支持多人协作的**在线** LaTeX 编辑器。但是对网络连接有一定要求。
 
 ### 语言表达
 
@@ -262,7 +263,7 @@
 
 ### 模型绘图
 
-* PPT 通常是我的第一选择：入手快，种类多，支持导出矢量图。
+* PPT 通常是我的第一选择：入手快，种类多，自由度高，支持导出矢量图。
 
 * [Inkscape](https://inkscape.org/) with [latex equation extensions](https://writetex.tk/)：【待尝试】
 
@@ -280,6 +281,8 @@
 
 #### 图片转换
 
+提供各种格式的图片的转换服务的网站很多。这里只是简单列举，你也可以通过搜索引擎来找到其他类似的网站。
+
 * [Convert PNG/JPEG (Raster) to EPS/PDF (Vector) Format](http://www.tlhiv.org/rast2vec/)：将 jpg、png 格式的图片文件转换为 eps 文件。
 
 * [EPS到PDF转换器](https://convertio.co/zh/eps-pdf/)：也可以将 eps 文件转换为别的格式的图片。
@@ -290,13 +293,13 @@
 
 ### 会议查找筛选
 
-* [Conference List](http://www.conferencelist.info/upcoming.html)：根据截稿时间排序，过期的会议不在首页出现。有一页可以看每个研究方向有哪些会议，但是没有办法根据研究方向筛选还没过期的会议。
+* [ccf-deadlines](https://ccfddl.github.io/)：可以根据研究方向和 CCF 等级来筛选本年度已经确定截稿日期的会议。对国内的同学比较友好。
 
 * [AI Conference Deadlines](https://aideadlin.es/)：可以根据研究方向筛选会议。但是好像需要科学上网才能看到全部信息。
 
-* [Conference Partner (会伴)](http://www.myhuiban.com/)：计算机最新国际会议和期刊列表。可以注册以关注会议或期刊。比较全，但目前信息更新不及时。
+* [Conference List](http://www.conferencelist.info/upcoming.html)：根据截稿时间排序，过期的会议不在首页出现。有一页可以看每个研究方向有哪些会议，但是没有办法根据研究方向筛选还没过期的会议。
 
-* [Call4Papers - CCF推荐列表](http://www.call4papers.cn/ccf/ccf-8.jsp)：按照 CCF 类别展示各会议和期刊的截稿时间。
+* [Conference Partner (会伴)](http://www.myhuiban.com/)：计算机最新国际会议和期刊列表。可以注册以关注会议或期刊。比较全，但目前信息更新不及时。
 
 * [lixin4ever/Conference-Acceptance-Rate](https://github.com/lixin4ever/Conference-Acceptance-Rate)：主要会议近年录取率统计。
 
@@ -314,6 +317,8 @@
 
 为已发表的论文提供清晰、可复现的代码能够有效推动领域发展。这里推荐一些对开源代码有帮助的工具。
 
+* [ReproducibilityChecklist-v2.0](https://www.cs.mcgill.ca/~jpineau/ReproducibilityChecklist.pdf)：一份机器学习复现清单，列举了你应该提供哪些文件来增强你的论文的可复现性。
+
 * [Damnever/pigar](https://github.com/Damnever/pigar)：Python 项目 requirements 文件自动生成工具。
 
 ## 其他
@@ -325,3 +330,9 @@
 ### 专注工作
 
 * [番茄·人生](http://www.tomatolife.cn/index.html)：Windows PC 端待办事项软件，番茄工作法时钟。
+
+### 白噪声 / 音乐
+
+* [Rainyscope rain simulator](https://rainyscope.com)：下雨声。
+
+* [lofi.cafe - lofi music 🎧](https://www.lofi.cafe/)：随机播放 Lo-Fi 音乐，习惯在工作时听音乐的同学可以尝试一下。需要科学上网。
