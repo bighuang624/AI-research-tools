@@ -93,6 +93,8 @@
 
 * [rasbt/deeplearning-models](https://github.com/rasbt/deeplearning-models)：使用 TensorFlow 和 PyTorch 实现各种深度学习模型的合集。
 
+* [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations)：很多算法的 PyTorch 实现，带有在线版的注释。缺点是展示的部分不是从头实现，一部分代码放在他们自己的包里了。
+
 ## 论文阅读
 
 ### 查阅下载
@@ -288,6 +290,8 @@
 * [EPS到PDF转换器](https://convertio.co/zh/eps-pdf/)：也可以将 eps 文件转换为别的格式的图片。
 
 * [Crop PDF files online - PDF Tools](https://pdfresizer.com/crop)：裁剪 pdf 文件的白边。
+
+* 在命令行中直接将 eps 转换为 pdf：`epstopdf <file.eps>`；自动裁剪 pdf 的白边：`pdfcrop <file.pdf>`。
 
 ## 会议投递
 
