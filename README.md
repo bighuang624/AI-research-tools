@@ -45,12 +45,16 @@
     - [公式编辑](#公式编辑)
     - [截屏悬浮](#截屏悬浮)
     - [表格转 LaTeX](#表格转-latex)
-    - [模型绘图](#模型绘图)
+    - [绘制示意图](#绘制示意图)
+      - [绘图工具](#绘图工具)
+      - [绘图参考](#绘图参考)
       - [PPT 插件](#ppt-插件)
       - [图片转换](#图片转换)
-  - [会议投递](#会议投递)
-    - [会议查找筛选](#会议查找筛选)
+      - [图片休整](#图片休整)
+  - [论文投递](#论文投递)
+    - [会议期刊查找筛选](#会议期刊查找筛选)
     - [匿名链接](#匿名链接)
+    - [arXiv 提交](#arxiv-提交)
     - [代码开源](#代码开源)
   - [其他](#其他)
     - [专利检索](#专利检索)
@@ -61,7 +65,7 @@
 
 ### RSS 阅读器
 
-* [irreader 阅读器 - FATECORE](http://irreader.fatecore.com/)：这是我现在在使用的 RSS 阅读器。一个非常大的优点是，对于一些没有提供 RSS 订阅源的网站，irreader 可以自定义 RSS 订阅源。另外，订阅的 RSS 更新时，有弹窗提醒。还有一个我暂时用不到的功能是，irreader 同时支持订阅播客和播放有声媒体。
+* [irreader 阅读器](http://irreader.fatecore.com/)：这是我现在在使用的 RSS 阅读器。一个非常大的优点是，对于一些没有提供 RSS 订阅源的网站，irreader 可以自定义 RSS 订阅源。另外，订阅的 RSS 更新时，有弹窗提醒。还有一个我暂时用不到的功能是，irreader 同时支持订阅播客和播放有声媒体。
 
 ## 论文查找
 
@@ -85,13 +89,13 @@
 
 * [卖萌屋Arxiv服务](http://arxiv.xixiaoyao.cn/): 只包含 arxiv 当日更新的论文。优点在于把作者机构也展示出来。仍在改进。
 
-* [Paper Digest – AI for tracking and summarizing papers](https://www.paperdigest.org/): 提供邮件订阅前一天出的论文的列表，附有每篇论文的一句话总结。在会议论文公布时，这个网站也会整理。
+* [Paper Digest – AI for tracking and summarizing papers](https://www.paperdigest.org/): 提供邮件订阅前一天出的论文的列表，附有每篇论文的一句话总结。对我更重要的是这个网站也会在每个顶会论文全部公布时进行整理。
 
 ### 代码实现查找
 
 * [Papers With Code](https://paperswithcode.com/)：自动把论文连接到实现代码的 GitHub 资源库和数据集，并根据 GitHub 的收藏量排序。展示各任务上的 SOTA 以供比较。
 
-* [rasbt/deeplearning-models](https://github.com/rasbt/deeplearning-models)：使用 TensorFlow 和 PyTorch 实现各种深度学习模型的合集。
+<!-- * [rasbt/deeplearning-models](https://github.com/rasbt/deeplearning-models)：使用 TensorFlow 和 PyTorch 实现各种深度学习模型的合集。 -->
 
 * [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations)：很多算法的 PyTorch 实现，带有在线版的注释。缺点是展示的部分不是从头实现，一部分代码放在他们自己的包里了。
 
@@ -109,7 +113,7 @@
 
 * [CopyTranslator](https://copytranslator.github.io/)：最大的优点在于有置顶、点按复制、监听剪贴板等功能，阅读文献配合使用时可以无缝切换，非常方便。
 
-* [Saladict 沙拉查词](https://saladict.crimx.com/)：浏览器翻译插件，有非常丰富的设置来配合用户的使用习惯。除了官方文档，也可以看 [沙拉查词 + Alfred，打造最佳文献翻译体验！ - 知乎](https://zhuanlan.zhihu.com/p/113809716) 来了解。我还在探索如何在 Windows 系统上实现浏览器外翻译。
+* [Saladict 沙拉查词](https://saladict.crimx.com/)：浏览器翻译插件，有非常丰富的设置来配合用户的使用习惯。除了官方文档，也可以看 [沙拉查词 + Alfred，打造最佳文献翻译体验！](https://zhuanlan.zhihu.com/p/113809716) 来了解。我还在探索如何在 Windows 系统上实现浏览器外翻译。
 
 ### 笔记工具
 
@@ -121,15 +125,15 @@
 
 #### 功能配置封装
 
-* [williamFalcon/pytorch-lightning](https://github.com/williamFalcon/pytorch-lightning)：将 PyTorch 开发中的各种通用配置（训练验证逻辑、超参搜索、分布式训练等）全部包装起来，以更高级的形式快速搭建模型。功能强大，有些复杂，正在摸索。[机器之心写的简介](https://mp.weixin.qq.com/s/5ueJvt1tcWW0wknpkM3WIg)
+* [pytorch-lightning](https://github.com/williamFalcon/pytorch-lightning)：将 PyTorch 开发中的各种通用配置（训练验证逻辑、超参搜索、分布式训练等）全部包装起来，以更高级的形式快速搭建模型。功能强大，有些复杂，正在摸索。[机器之心写的简介](https://mp.weixin.qq.com/s/5ueJvt1tcWW0wknpkM3WIg)
 
 #### 项目参考
 
-* [ritchieng/the-incredible-pytorch](https://github.com/ritchieng/the-incredible-pytorch)：有关 PyTorch 的各种教程、项目、视频等资源。
+* [the-incredible-pytorch](https://github.com/ritchieng/the-incredible-pytorch)：有关 PyTorch 的各种教程、项目、视频等资源。
 
-* [microsoft/computervision-recipes](https://github.com/microsoft/computervision-recipes)：微软出品，基于 PyTorch 的各种 CV 任务的教程。
+* [computervision-recipes](https://github.com/microsoft/computervision-recipes)：微软出品，基于 PyTorch 的各种 CV 任务的教程。
 
-* [donnyyou/torchcv](https://github.com/donnyyou/torchcv)：基于 PyTorch 的 CV 模型框架，包含图像分类、语义分割、目标检测、姿态检测、实例分割、生成对抗网络等任务中的多个常见模型。
+<!-- * [donnyyou/torchcv](https://github.com/donnyyou/torchcv)：基于 PyTorch 的 CV 模型框架，包含图像分类、语义分割、目标检测、姿态检测、实例分割、生成对抗网络等任务中的多个常见模型。 -->
 
 #### 项目管理
 
@@ -137,35 +141,31 @@
 
 #### 风格指南
 
-* [IgorSusmelj/pytorch-styleguide](https://github.com/IgorSusmelj/pytorch-styleguide)：一份 PyTorch 的非官方风格指南和最佳实践总结。
+* [pytorch-styleguide](https://github.com/IgorSusmelj/pytorch-styleguide)：一份 PyTorch 的非官方风格指南和最佳实践总结。
 
 #### 项目模板
 
-* [moemen95/Pytorch-Project-Template](https://github.com/moemen95/Pytorch-Project-Template)：一个可扩展的 PyTorch 项目模板，包括图像分割、目标分类、GANs 和强化学习等实例。
+* [Pytorch-Project-Template](https://github.com/moemen95/Pytorch-Project-Template)：一个可扩展的 PyTorch 项目模板，包括图像分割、目标分类、GANs 和强化学习等实例。
 
-* [lyakaap/pytorch-template](https://github.com/lyakaap/pytorch-template)：另一份 PyTorch 项目模板。
+* [pytorch-template](https://github.com/lyakaap/pytorch-template)：另一份 PyTorch 项目模板。
 
 #### 神经网络分析器
 
-* [sksq96/pytorch-summary](https://github.com/sksq96/pytorch-summary)：打印 PyTorch 模型信息，包含模型每层的参数量、输出张量大小等。
+* [torchinfo](https://github.com/TylerYep/torchinfo)：打印 PyTorch 模型信息，包含模型每层的参数量、输出张量大小等。
 
-* [sovrasov/flops-counter.pytorch](https://github.com/sovrasov/flops-counter.pytorch)：计算模型总共的 FLOPs（浮点运算数，理解为计算量，可以用来衡量算法/模型的复杂度）以及每层的占比。缺点是似乎不支持 RNN 相关层，另外打印下来的信息不是很方便看。
-
-<!-- * <del>[Swall0w/torchstat](https://github.com/Swall0w/torchstat)：PyTorch 专用的轻量级神经网络分析器，可以展示网络的参数，空间大小，MAdd，FLOPs 等指标。</del>【支持的层种类过少，只包含卷积网络中常用的那些层】【[有一个 bug 需要修改](https://github.com/Swall0w/torchstat/issues/14)】
-
-* <del>[Tramac/torchscope](https://github.com/Tramac/torchscope)：同样是 PyTorch 专用的神经网络分析器，看起来展示时比上面的 torchstat 更加清晰。</del>【对 Linear 层报错，貌似是 [torchstat 带来的 bug](https://github.com/Swall0w/torchstat/issues/18)】【同样不支持 RNN 相关层】【感觉有时间自己可以 fork 然后修改一下】 -->
+* [flops-counter.pytorch](https://github.com/sovrasov/flops-counter.pytorch)：计算模型总共的 FLOPs（浮点运算数，理解为计算量，可以用来衡量算法/模型的复杂度）以及每层的占比。缺点是似乎不支持 RNN 相关层，另外打印下来的信息不是很方便看。
 
 #### 可视化
 
 * PyTorch 最新版本已经带有 tensorboard。[官方 tutorial](https://pytorch.org/tutorials/intermediate/tensorboard_tutorial.html)。
 
-* [facebookresearch/visdom](https://github.com/facebookresearch/visdom)：【待尝试】用于创建、组织和共享实时丰富数据可视化的灵活工具。
+* [visdom](https://github.com/facebookresearch/visdom)：【待尝试】用于创建、组织和共享实时丰富数据可视化的灵活工具。
 
 * [Convolution Visualizer](https://ezyang.github.io/convolution-visualizer/index.html)：如果卷积层配置比较复杂，不方便计算输出大小时，可以利用这个可视化工具辅助。
 
 ### 实验记录
 
-* [fastnlp/fitlog](https://github.com/fastnlp/fitlog)：【待尝试】架构无关的实验记录工具，可以看[邱锡鹏老师在知乎写的介绍](https://www.zhihu.com/question/384519338/answer/1181186086)。
+* [fitlog](https://github.com/fastnlp/fitlog)：【待尝试】架构无关的实验记录工具，可以看[邱锡鹏老师在知乎写的介绍](https://www.zhihu.com/question/384519338/answer/1181186086)。
 
 ### 数据集查找
 
@@ -175,7 +175,7 @@
 
 ### 数据集下载
 
-* 针对在 Google Drive 上下载大型数据集常发生的失败现象，推荐 [wkentaro / gdown](https://github.com/wkentaro/gdown)。
+* [gdown](https://github.com/wkentaro/gdown)：用于解决在 Google Drive 上下载大型数据集常发生的失败现象。
 
 ### 特征工程
 
@@ -195,7 +195,7 @@
 
 ### Debug 工具
 
-* [cool-RR/PySnooper](https://github.com/cool-RR/pysnooper)：【待尝试】致力让用户抛弃`print`函数来 debug（然而，至少目前我还是习惯用 logging 模块，和`print`差不了多少）。[机器之心写的简介](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650760939&idx=1&sn=5b69c106549f329f83ca241e1bc71ff3&chksm=871aa295b06d2b83deade4fc16f99ed5354572c8838d202d0a229d804bb535815f2315d980d0&scene=0&xtrack=1&key=6854b25c2a023c1b259671991171b31fab8ca8f0b3be42cfe9746f0ac6a97af337c3f692988c69af5813e1658308b6087dc66c1d1f218619aab29c7d02dfc8b005eff42eea7fcb837022e321727f14b5&ascene=1&uin=MjA1ODkwNzIyNw%3D%3D&devicetype=Windows+10&version=62060739&lang=zh_CN&pass_ticket=5JdoVuTltfAvWg%2FaBYq40SvnVT0xZhhRK9fPaxA3iu2MgoceoLJpRqamQ9gnBuY2)
+* [PySnooper](https://github.com/cool-RR/pysnooper)：【待尝试】致力让用户抛弃`print`函数来 debug（然而，至少目前我还是习惯用 logging 模块，和`print`差不了多少）。[机器之心写的简介](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650760939&idx=1&sn=5b69c106549f329f83ca241e1bc71ff3&chksm=871aa295b06d2b83deade4fc16f99ed5354572c8838d202d0a229d804bb535815f2315d980d0&scene=0&xtrack=1&key=6854b25c2a023c1b259671991171b31fab8ca8f0b3be42cfe9746f0ac6a97af337c3f692988c69af5813e1658308b6087dc66c1d1f218619aab29c7d02dfc8b005eff42eea7fcb837022e321727f14b5&ascene=1&uin=MjA1ODkwNzIyNw%3D%3D&devicetype=Windows+10&version=62060739&lang=zh_CN&pass_ticket=5JdoVuTltfAvWg%2FaBYq40SvnVT0xZhhRK9fPaxA3iu2MgoceoLJpRqamQ9gnBuY2)
 
 ## 论文写作
 
@@ -241,7 +241,7 @@
 
 * [Nounplus.net](https://www.nounplus.net/)：免费的在线英文语法检测。
 
-* [LongGang Pang/proofread](https://gitlab.com/snowhitiger/proofread)：【待尝试】对科学文章草稿自动检查，寻找不符合英文科学写作标准的部分，并提出修改意见。作者写的介绍：[分享一个自己做的英文科学写作检查器 - 知乎](https://zhuanlan.zhihu.com/p/62351973)。
+* [proofread](https://gitlab.com/snowhitiger/proofread)：【待尝试】对科学文章草稿自动检查，寻找不符合英文科学写作标准的部分，并提出修改意见。作者写的介绍：[分享一个自己做的英文科学写作检查器 - 知乎](https://zhuanlan.zhihu.com/p/62351973)。
 
 ### 公式编辑
 
@@ -263,7 +263,9 @@
 
 * [Excel2LaTeX](https://ctan.org/tex-archive/support/excel2latex)：用在 Excel 上的宏工具，能够将 Excel 表格转换为 LaTeX 代码，节省很多时间。能够满足大多数效果的转换，有些效果可能需要微调。
 
-### 模型绘图
+### 绘制示意图
+
+#### 绘图工具
 
 * PPT 通常是我的第一选择：入手快，种类多，自由度高，支持导出矢量图。
 
@@ -271,11 +273,15 @@
 
 * [http://Lucidchart.com](https://www.lucidchart.com/)：在线画矢量图，可以导出 png、pdf，也支持各种颜色，组合和图层等。
 
-* [xinychen/academic-drawing](https://github.com/xinychen/academic-drawing)：Matlab/Python 绘图，主要用于画时序数据。
+#### 绘图参考
 
-* [xinychen/awesome-latex-drawing](https://github.com/xinychen/awesome-latex-drawing)：LaTeX 绘图，主要用于画贝叶斯网络、张量分解等。
+* [Paper-Picture-Writing-Code](https://github.com/MLNLP-World/Paper-Picture-Writing-Code)：基于 LaTex 的画图代码，包含折线图、柱状图、散点图、注意力可视化以及结构图。
 
-* [HarisIqbal88/PlotNeuralNet](https://github.com/HarisIqbal88/PlotNeuralNet)：Python 得到可用于 LaTeX 的图，主要画 CNN。
+* [academic-drawing](https://github.com/xinychen/academic-drawing)：Matlab/Python 绘图，主要用于画时序数据。
+
+* [awesome-latex-drawing](https://github.com/xinychen/awesome-latex-drawing)：LaTeX 绘图，主要用于画贝叶斯网络、张量分解等。
+
+* [PlotNeuralNet](https://github.com/HarisIqbal88/PlotNeuralNet)：Python 得到可用于 LaTeX 的图，主要画 CNN。
 
 #### PPT 插件
 
@@ -289,13 +295,15 @@
 
 * [EPS到PDF转换器](https://convertio.co/zh/eps-pdf/)：也可以将 eps 文件转换为别的格式的图片。
 
+#### 图片休整
+
 * [Crop PDF files online - PDF Tools](https://pdfresizer.com/crop)：裁剪 pdf 文件的白边。
 
 * 在命令行中直接将 eps 转换为 pdf：`epstopdf <file.eps>`；自动裁剪 pdf 的白边：`pdfcrop <file.pdf>`。
 
-## 会议投递
+## 论文投递
 
-### 会议查找筛选
+### 会议期刊查找筛选
 
 * [ccf-deadlines](https://ccfddl.github.io/)：可以根据研究方向和 CCF 等级来筛选本年度已经确定截稿日期的会议。对国内的同学比较友好。
 
@@ -305,7 +313,7 @@
 
 * [Conference Partner (会伴)](http://www.myhuiban.com/)：计算机最新国际会议和期刊列表。可以注册以关注会议或期刊。比较全，但目前信息更新不及时。
 
-* [lixin4ever/Conference-Acceptance-Rate](https://github.com/lixin4ever/Conference-Acceptance-Rate)：主要会议近年录取率统计。
+* [Conference-Acceptance-Rate](https://github.com/lixin4ever/Conference-Acceptance-Rate)：主要会议近年录取率统计。
 
 ### 匿名链接
 
@@ -317,13 +325,21 @@
 
 * [Figshare](https://knowledge.figshare.com/articles/item/how-to-share-cite-or-embed-my-data)
 
+### arXiv 提交
+
+* [Arxiv 论文提交流程——看这篇就够了](https://zhuanlan.zhihu.com/p/109405192)：文章，用于了解将论文提交至 arXiv 上的流程。
+
+* [arxiv-latex-cleaner](https://github.com/google-research/arxiv-latex-cleaner)：将论文的 LaTeX 代码清理为提交至 arXiv 上的要求。一个亮点是能够自动清理掉论文中所有被注释掉的内容。
+
+* [overleaf -> arxiv 丝滑提交过程](https://zhuanlan.zhihu.com/p/558225069)：如果是使用 Overleaf（而不是在本地将 LaTeX 代码编译为论文），可以先参考本文下载合适的源码包，然后再考虑使用 arxiv-latex-cleaner。
+
 ### 代码开源
 
 为已发表的论文提供清晰、可复现的代码能够有效推动领域发展。这里推荐一些对开源代码有帮助的工具。
 
 * [ReproducibilityChecklist-v2.0](https://www.cs.mcgill.ca/~jpineau/ReproducibilityChecklist.pdf)：一份机器学习复现清单，列举了你应该提供哪些文件来增强你的论文的可复现性。
 
-* [Damnever/pigar](https://github.com/Damnever/pigar)：Python 项目 requirements 文件自动生成工具。
+* [pigar](https://github.com/Damnever/pigar)：Python 项目 requirements 文件自动生成工具。
 
 ## 其他
 
