@@ -222,6 +222,8 @@
 
 * [Overleaf](https://www.overleaf.com/)：支持多人协作的**在线** LaTeX 编辑器。但是对网络连接有一定要求。
 
+* [SpicyChai LaTeX](https://latex.spicychai.com/)：在线 LaTeX 编辑器，支持 AI 驱动的模板填充和实时 PDF 预览，无需注册即可免费使用。
+
 ### 语言表达
 
 #### 搭配查找
