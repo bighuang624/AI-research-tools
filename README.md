@@ -114,6 +114,8 @@
 
 * [Cool Papers](https://papers.cool/)：苏剑林大佬开发的刷论文网站。可根据 [README](https://github.com/bojone/papers.cool) 自行探索使用。
 
+* [Nujan](https://nujan.app/)：分屏论文阅读与 AI 交互工具。左侧阅读 PDF 原文，右侧边读边问，支持划选公式、图表或段落获取通俗解释，辅助拆解复杂方法学与跨文献对比。
+
 ### 文献翻译
 
 * [CopyTranslator](https://copytranslator.github.io/)：最大的优点在于有置顶、点按复制、监听剪贴板等功能，阅读文献配合使用时可以无缝切换，非常方便。
