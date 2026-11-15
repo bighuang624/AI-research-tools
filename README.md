@@ -116,6 +116,8 @@
 
 ### 文献翻译
 
+* [HumanPen](https://humanpen.net)：在线文档翻译、改写、引用格式校正与精简工具；按积分计费，提供 API。
+
 * [CopyTranslator](https://copytranslator.github.io/)：最大的优点在于有置顶、点按复制、监听剪贴板等功能，阅读文献配合使用时可以无缝切换，非常方便。
 
 * [Saladict 沙拉查词](https://saladict.crimx.com/)：浏览器翻译插件，有非常丰富的设置来配合用户的使用习惯。除了官方文档，也可以看 [沙拉查词 + Alfred，打造最佳文献翻译体验！](https://zhuanlan.zhihu.com/p/113809716) 来了解。我还在探索如何在 Windows 系统上实现浏览器外翻译。
